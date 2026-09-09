@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="mr" data-lang="mr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Udyog Sutra 360 - डिजिटल मार्केटिंग आणि वेबसाइट्स (MSME & Small Businesses)</title>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Noto+Sans+Devanagari:wght@400;600;700&family=Sora:wght@600;700;800&display=swap" rel="stylesheet">
+    <!-- FontAwesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Interactive Canvas & Spotlight Following Mouse -->
+    <div class="mouse-spotlight" id="spotlight"></div>
+    <div class="custom-cursor" id="cursor"></div>
+
+    <!-- Floating Background Animated Shapes -->
+    <div class="floating-shape shape-1"></div>
+    <div class="floating-shape shape-2"></div>
+
+    <!-- Floating WhatsApp CTA Button -->
+    <a href="https://wa.me/918652871521" target="_blank" class="floating-wa magnetic-element" title="WhatsApp Chat">
+        <i class="fa-brands fa-whatsapp"></i>
+    </a>
+
+    <!-- Header Navigation with Integrated Language Toggle -->
+    <header class="navbar">
+        <div class="container nav-container">
+            <a href="#" class="logo-box">
+                <img src="logo.png" alt="Udyog Sutra 360 Logo" class="brand-logo-img">
+            </a>
+            <nav class="nav-links">
+                <a href="#about" data-mr="आमच्याबद्दल" data-en="About Us">आमच्याबद्दल</a>
+                <a href="#services" data-mr="सेवा" data-en="Services">सेवा</a>
+                <a href="#benefits" data-mr="फायदे" data-en="Benefits">फायदे</a>
+                <a href="#contact" data-mr="संपर्क" data-en="Contact">संपर्क</a>
+            </nav>
+            <div class="nav-right-actions">
+                <!-- Language Switcher integrated right inside header -->
+                <button id="langBtn" class="header-lang-btn">
+                    <i class="fa-solid fa-globe"></i> <span id="currentLangLabel">मराठी / ENG</span>
+                </button>
+                <a href="tel:+918652871521" class="btn btn-primary nav-cta">
+                    <i class="fa-solid fa-phone"></i> <span data-mr="कॉल करा" data-en="Call Now">कॉल करा</span>
+                </a>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Banner Section -->
+    <section class="hero-section">
+        <div class="container hero-grid">
+            <div class="hero-content reveal-left">
+                <div class="badge">
+                    <i class="fa-solid fa-rocket"></i> <span data-mr="MSME आणि लघु व्यवसायांसाठी" data-en="For MSME & Small Scale Business">MSME आणि लघु व्यवसायांसाठी</span>
+                </div>
+                <h1 class="hero-title" data-mr="तुमच्या व्यवसायाला डिजिटल जगात नवी ओळख!" data-en="Give your business a new identity in the digital world!">
+                    तुमच्या व्यवसायाला डिजिटल जगात नवी ओळख!
+                </h1>
+                <p class="hero-subtitle" data-mr="डिजिटल ग्रोथ | जास्त ग्राहक | मजबूत व्यवसाय" data-en="Digital Growth | More Customers | Stronger Business">
+                    डिजिटल ग्रोथ | जास्त ग्राहक | मजबूत व्यवसाय
+                </p>
+                <div class="hero-btns">
+                    <a href="#contact" class="btn btn-orange btn-glow magnetic-element" data-mr="आत्ताच सुरू करा" data-en="Get Started">आत्ताच सुरू करा</a>
+                    <a href="https://wa.me/918652871521" class="btn btn-outline magnetic-element" target="_blank">
+                        <i class="fa-brands fa-whatsapp"></i> WhatsApp Chat
+                    </a>
+                </div>
+                <div class="hero-contacts-inline">
+                    <a href="tel:+918652871521"><i class="fa-solid fa-phone"></i> +91 86528 71521</a>
+                    <a href="tel:+919619665580"><i class="fa-solid fa-phone"></i> +91 96196 65580</a>
+                </div>
+            </div>
+
+            <!-- Unique Interactive 360 Dynamic Element -->
+            <div class="hero-visual reveal-right">
+                <div class="hero-interactive-stage">
+                    <!-- Rotating Outer Ring -->
+                    <div class="ring-360-outer">
+                        <div class="node node-1"><i class="fa-brands fa-google"></i></div>
+                        <div class="node node-2"><i class="fa-solid fa-globe"></i></div>
+                        <div class="node node-3"><i class="fa-brands fa-whatsapp"></i></div>
+                        <div class="node node-4"><i class="fa-brands fa-instagram"></i></div>
+                    </div>
+                    
+                    <!-- Core Interactive 360 Emblem -->
+                    <div class="core-360-emblem tilt-card">
+                        <div class="sun-arc-glow"></div>
+                        <span class="num-360">360°</span>
+                        <span class="text-growth" data-mr="डिजिटल सुत्र" data-en="DIGITAL SUTRA">डिजिटल सुत्र</span>
+                        <div class="ripple-ring"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section (Dribbble Bento Grid Style) -->
+    <section id="services" class="section-padding">
+        <div class="container">
+            <div class="section-header text-center reveal-up">
+                <h2 class="section-title" data-mr="आमच्या प्रमुख डिजिटल सेवा" data-en="Our Core Digital Services">आमच्या प्रमुख डिजिटल सेवा</h2>
+                <p class="section-desc" data-mr="MSME आणि स्थानिक व्यवसायांना ऑनलाइन वाढवण्यासाठी खास तयार केलेल्या सेवा" data-en="Tailored digital solutions to elevate small businesses online">MSME आणि स्थानिक व्यवसायांना ऑनलाइन वाढवण्यासाठी खास तयार केलेल्या सेवा</p>
+            </div>
+
+            <div class="services-grid">
+                <!-- Bento Card 1 -->
+                <div class="bento-card tilt-card reveal-up">
+                    <div class="card-glass-shine"></div>
+                    <div class="card-icon icon-gmb">
+                        <i class="fa-brands fa-google"></i>
+                    </div>
+                    <h3 data-mr="Google Business Profile" data-en="Google Business Profile">Google Business Profile</h3>
+                    <p data-mr="तुमचा व्यवसाय Google Maps व Search वर दिसू द्या आणि स्थानिकांकडून ग्राहक मिळवा." data-en="Make your business visible on Google Search and Maps to attract local customers.">तुमचा व्यवसाय Google Maps व Search वर दिसू द्या आणि स्थानिकांकडून ग्राहक मिळवा.</p>
+                </div>
+
+                <!-- Bento Card 2 -->
+                <div class="bento-card tilt-card reveal-up" style="animation-delay: 0.1s;">
+                    <div class="card-glass-shine"></div>
+                    <div class="card-icon icon-web">
+                        <i class="fa-solid fa-laptop-code"></i>
+                    </div>
+                    <h3 data-mr="वेबसाइट्स (Websites)" data-en="Websites">वेबसाइट्स (Websites)</h3>
+                    <p data-mr="तुमची स्वतःची उच्च दर्जाची, जलद आणि मोबाइल-फ्रेंडली व्यावसायिक वेबसाइट बनवा." data-en="Your own high-speed, responsive, professional website for growth.">तुमची स्वतःची उच्च दर्जाची, जलद आणि मोबाइल-फ्रेंडली व्यावसायिक वेबसाइट बनवा.</p>
+                </div>
+
+                <!-- Bento Card 3 -->
+                <div class="bento-card tilt-card reveal-up" style="animation-delay: 0.2s;">
+                    <div class="card-glass-shine"></div>
+                    <div class="card-icon icon-wa">
+                        <i class="fa-brands fa-whatsapp"></i>
+                    </div>
+                    <h3 data-mr="WhatsApp Marketing" data-en="WhatsApp Marketing">WhatsApp Marketing</h3>
+                    <p data-mr="ग्राहकांशी थेट संवाद साधा आणि ब्रँडची जाहिरात करून थेट विक्री वाढवा." data-en="Connect directly with customers and convert leads via instant messaging.">ग्राहकांशी थेट संवाद साधा आणि ब्रँडची जाहिरात करून थेट विक्री वाढवा.</p>
+                </div>
+
+                <!-- Bento Card 4 -->
+                <div class="bento-card tilt-card reveal-up" style="animation-delay: 0.3s;">
+                    <div class="card-glass-shine"></div>
+                    <div class="card-icon icon-meta">
+                        <i class="fa-brands fa-facebook-f"></i>
+                        <i class="fa-brands fa-instagram"></i>
+                    </div>
+                    <h3 data-mr="Facebook & Instagram" data-en="Facebook & Instagram">Facebook & Instagram</h3>
+                    <p data-mr="आकर्षक सोशल मीडिया पोस्ट, व्हिडिओ आणि टार्गेटेड जाहिरातींद्वारे ग्राहक मिळवा." data-en="Engaging social posts, banners, and targeted marketing campaigns.">आकर्षक सोशल मीडिया पोस्ट, व्हिडिओ आणि टार्गेटेड जाहिरातींद्वारे ग्राहक मिळवा.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Website Template & Advertisement Section -->
+    <section id="snippet" class="section-padding">
+        <div class="container">
+            <div class="section-header text-center reveal-up">
+                <h2 class="section-title" data-mr="आमचे वेबसाइट टेंप्लेट आणि जाहिरात" data-en="Our Website Template & Advertisement">आमचे वेबसाइट टेंप्लेट आणि जाहिरात</h2>
+                <p class="section-desc" data-mr="टेंप्लेट लाइव्ह पहा किंवा आमची व्हाट्सॲप जाहिरात तपासा" data-en="Check our live template or preview our WhatsApp advertisement poster">टेंप्लेट लाइव्ह पहा किंवा आमची व्हाट्सॲप जाहिरात तपासा</p>
+            </div>
+
+            <div class="template-ad-grid">
+                <!-- Left Side: Website Template Example -->
+                <div class="snippet-card tilt-card reveal-up">
+                    <div class="snippet-preview-thumb" onclick="openImageModal('logo.png')">
+                        <img src="logo.png" alt="Website Template Screenshot" id="snippetThumb">
+                        <div class="thumb-overlay">
+                            <i class="fa-solid fa-magnifying-glass-plus"></i>
+                            <span data-mr="स्क्रीनशॉट मोठा करा" data-en="Enlarge Screenshot">स्क्रीनशॉट मोठा करा</span>
+                        </div>
+                    </div>
+                    <div class="snippet-details">
+                        <h3 data-mr="आमचे वेबसाइट टेंप्लेट" data-en="Our Website Template Example">आमचे वेबसाइट टेंप्लेट</h3>
+                        <p data-mr="ॲनिमेटेड आणि रिस्पॉन्सिव्ह वन-पेज वेबसाइट टेंप्लेट." data-en="Animated & responsive one-page website template.">ॲनिमेटेड आणि रिस्पॉन्सिव्ह वन-पेज वेबसाइट टेंप्लेट.</p>
+                        <!-- <a href="file:///C:/Users/ganesh.jadhav/Downloads/UdyogSutra360_Website_V2/udyog-sutra-360/dist/index.html" target="_blank" class="btn btn-primary magnetic-element"> -->
+							 <a href="file:///C:/Users/ganesh.jadhav/Downloads/UdyogSutra360_Website_V2/udyog-sutra-360/dist/index.html" target="_blank" class="btn btn-primary magnetic-element">
+                            <i class="fa-solid fa-arrow-up-right-from-square"></i> <span data-mr="टेंप्लेट उघडा" data-en="Open Template">टेंप्लेट उघडा</span>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Right Side: WhatsApp Advertisement Poster -->
+                <div class="snippet-card tilt-card reveal-up" style="animation-delay: 0.1s;">
+                    <div class="snippet-preview-thumb" onclick="openImageModal('C:/Users/ganesh.jadhav/Downloads/UdyogSutra360_Website_V2/advertisementMarathi.png')">
+                        <img src="C:/Users/ganesh.jadhav/Downloads/UdyogSutra360_Website_V2/advertisementMarathi.png" alt="WhatsApp Advertisement Poster" id="adThumb">
+                        <div class="thumb-overlay">
+                            <i class="fa-solid fa-magnifying-glass-plus"></i>
+                            <span data-mr="जाहिरात मोठी करा" data-en="Enlarge Advertisement">जाहिरात मोठी करा</span>
+                        </div>
+                    </div>
+                    <div class="snippet-details">
+                        <h3 data-mr="व्हाट्सॲप जाहिरात पोस्टर" data-en="WhatsApp Advertisement">व्हाट्सॲप जाहिरात पोस्टर</h3>
+                        <p data-mr="आमची विशेष सोशल मीडिया आणि व्हाट्सॲप ऑफर पाहा." data-en="Check out our promotional marketing poster.">आमची विशेष सोशल मीडिया आणि व्हाट्सॲप ऑफर पाहा.</p>
+                        <button class="btn btn-outline magnetic-element" onclick="openImageModal('C:/Users/ganesh.jadhav/Downloads/UdyogSutra360_Website_V2/advertisementMarathi.png')">
+                            <i class="fa-solid fa-eye"></i> <span data-mr="मोठे करून पाहा" data-en="View Full Image">मोठे करून पाहा</span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Dynamic Image Preview Popup Modal -->
+    <div id="imageModal" class="image-modal" onclick="closeImageModal()">
+        <span class="modal-close">&times;</span>
+        <img class="modal-content" id="modalImg" src="" alt="Full Preview">
+    </div>
+
+    <!-- Growth Benefits Checklist Section -->
+    <section id="benefits" class="section-padding bg-alt">
+        <div class="container benefits-grid">
+            <div class="benefits-content reveal-left">
+                <h2 class="section-title" data-mr="डिजिटल पद्धतीने व्यवसाय का वाढवावा?" data-en="Grow Your Business Digitally">डिजिटल पद्धतीने व्यवसाय का वाढवावा?</h2>
+                <ul class="checklist">
+                    <li class="tilt-card">
+                        <i class="fa-solid fa-circle-check"></i>
+                        <span data-mr="तुमची ब्रँड ओळख वाढवा (Increase Brand Recognition)" data-en="Increase your brand recognition">तुमची ब्रँड ओळख वाढवा (Increase Brand Recognition)</span>
+                    </li>
+                    <li class="tilt-card">
+                        <i class="fa-solid fa-circle-check"></i>
+                        <span data-mr="जास्तीत जास्त संभाव्य ग्राहक मिळवा (Reach More Customers)" data-en="Reach more potential customers">जास्तीत जास्त संभाव्य ग्राहक मिळवा (Reach More Customers)</span>
+                    </li>
+                    <li class="tilt-card">
+                        <i class="fa-solid fa-circle-check"></i>
+                        <span data-mr="ऑनलाइन उपस्थिती मजबूत करा (Strengthen Online Presence)" data-en="Strengthen your online presence">ऑनलाइन उपस्थिती मजबूत करा (Strengthen Online Presence)</span>
+                    </li>
+                    <li class="tilt-card">
+                        <i class="fa-solid fa-circle-check"></i>
+                        <span data-mr="विक्री आणि व्यवसाय जलद वाढवा (Increase Sales & Growth)" data-en="Increase sales and business growth">विक्री आणि व्यवसाय जलद वाढवा (Increase Sales & Growth)</span>
+                    </li>
+                </ul>
+            </div>
+            <div class="benefits-visual reveal-right">
+                <div class="interactive-growth-card tilt-card">
+                    <div class="growth-header">
+                        <span data-mr="डिजिटल प्रगती आलेख" data-en="Digital Growth Tracker">डिजिटल प्रगती आलेख</span>
+                        <i class="fa-solid fa-chart-line"></i>
+                    </div>
+                    <div class="animated-bars">
+                        <div class="bar bar-a"><span>+140%</span></div>
+                        <div class="bar bar-b"><span>+280%</span></div>
+                        <div class="bar bar-c"><span>+360%</span></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Interactive Contact Form & CTA Section -->
+    <section id="contact" class="section-padding dark-section">
+        <div class="container contact-container">
+            <div class="contact-info reveal-left">
+                <h2 data-mr="आजच आमच्याशी संपर्क साधा!" data-en="Contact Us Today!">आजच आमच्याशी संपर्क साधा!</h2>
+                <p data-mr="तुमच्या व्यवसायाला नवीन डिजिटल उंचीवर नेण्यासाठी आजच कॉल करा किंवा फॉर्म भरा." data-en="Get in touch to take your MSME business to new digital heights.">तुमच्या व्यवसायाला नवीन डिजिटल उंचीवर नेण्यासाठी आजच कॉल करा किंवा फॉर्म भरा.</p>
+                <div class="contact-methods">
+                    <a href="tel:+918652871521" class="contact-item magnetic-element">
+                        <div class="c-icon"><i class="fa-solid fa-phone"></i></div>
+                        <div>
+                            <span>+91 86528 71521</span>
+                        </div>
+                    </a>
+                    <a href="tel:+919619665580" class="contact-item magnetic-element">
+                        <div class="c-icon"><i class="fa-solid fa-phone"></i></div>
+                        <div>
+                            <span>+91 96196 65580</span>
+                        </div>
+                    </a>
+                </div>
+            </div>
+
+            <div class="contact-form-card reveal-right tilt-card">
+                <form id="leadForm" onsubmit="handleFormSubmit(event)">
+                    <div class="form-group">
+                        <label data-mr="तुमचे नाव / Business Name" data-en="Name / Business Name">तुमचे नाव / Business Name</label>
+                        <input type="text" id="custName" class="form-control" required>
+                    </div>
+                    <div class="form-group">
+                        <label data-mr="मोबाइल नंबर" data-en="Phone Number">मोबाइल नंबर</label>
+                        <input type="tel" id="custPhone" class="form-control" pattern="[0-9]{10}" required>
+                    </div>
+                    <div class="form-group">
+                        <label data-mr="हवी असलेली सेवा" data-en="Required Service">हवी असलेली सेवा</label>
+                        <select id="custService" class="form-control" required>
+                            <option value="" disabled selected data-mr="सेवा निवडा" data-en="Select a Service">सेवा निवडा</option>
+                            <option value="Website Development">Website Development</option>
+                            <option value="Google Business Profile">Google Business Profile</option>
+                            <option value="Social Media Marketing">Social Media Marketing</option>
+                            <option value="WhatsApp Marketing">WhatsApp Marketing</option>
+                        </select>
+                    </div>
+                    <button type="submit" class="btn btn-orange w-100 magnetic-element" data-mr="संदेश पाठवा" data-en="Send Message">संदेश पाठवा</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Form Submission Success Modal -->
+    <div id="submitModal" class="image-modal" style="display: none;">
+        <div style="background: #ffffff; padding: 32px; border-radius: 20px; text-align: center; max-width: 420px; width: 90%; margin: auto; box-shadow: 0 20px 40px rgba(0,0,0,0.3); border: 1px solid rgba(255,255,255,0.2);">
+            <i class="fa-solid fa-circle-check" style="font-size: 52px; color: #25D366; margin-bottom: 16px;"></i>
+            <h3 style="margin-bottom: 12px; color: #071D49; font-size: 22px; font-weight: 700;" data-mr="माहिती यशस्वीरित्या पाठवली!" data-en="Submitted Successfully!">माहिती यशस्वीरित्या पाठवली!</h3>
+            <p style="font-size: 15px; color: #4A5568; margin-bottom: 24px; line-height: 1.5;" data-mr="तुमची माहिती व्हाट्सॲपद्वारे +91 96196 65580 वर पाठवली जात आहे." data-en="Your details are being redirected to +91 96196 65580 via WhatsApp.">तुमची माहिती व्हाट्सॲपद्वारे +91 96196 65580 वर पाठवली जात आहे.</p>
+            <button onclick="closeSubmitModal()" class="btn btn-primary" style="width: 100%; border-radius: 10px;" data-mr="ठीक आहे" data-en="OK">ठीक आहे</button>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container footer-content">
+            <p>&copy; 2026 Udyog Sutra 360. All Rights Reserved.</p>
+            <p class="tagline" data-mr="Digital Growth | More Customers | Stronger Business" data-en="Digital Growth | More Customers | Stronger Business">Digital Growth | More Customers | Stronger Business</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
