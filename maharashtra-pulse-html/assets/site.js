@@ -1,0 +1,1 @@
+document.querySelector('.menuBtn')?.addEventListener('click',()=>alert('Mobile menu preview. In WordPress this will open the site navigation.'));
