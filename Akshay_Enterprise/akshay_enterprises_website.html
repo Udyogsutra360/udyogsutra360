@@ -1,0 +1,1772 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Akshay Enterprises | Water Treatment & STP Solutions in New Panvel</title>
+  <meta name="description" content="Akshay Enterprises, New Panvel, Maharashtra provides water treatment plants, STP solutions, ETP, RO systems, and water softeners for residential, commercial, and industrial applications.">
+  
+  <!-- Tailwind CSS CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  
+  <!-- Google Fonts: Montserrat (for bold display),Cinzel/Alfa Slab/Montserrat for branding, Inter for body -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Inter:wght@300;400;500;600;700;800&family=Montserrat:wght@700;800;900&display=swap" rel="stylesheet">
+  
+  <!-- FontAwesome Icons CDN -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            brandDark: '#1A202C',
+            brandCharcoal: '#242B35',
+            brandBlue: '#0F4C81',
+            brandDeepBlue: '#0B3C5D',
+            brandCyan: '#00A8E8',
+            brandLightCyan: '#E0F7FC',
+            brandGreen: '#2ECC71',
+            brandOrange: '#FF5722',
+            brandOrangeDark: '#E64A19',
+          },
+          fontFamily: {
+            sans: ['Inter', 'sans-serif'],
+            brandTitle: ['"Alfa Slab One"', 'Montserrat', 'sans-serif'],
+            brandSub: ['Montserrat', 'sans-serif'],
+          }
+        }
+      }
+    }
+  </script>
+
+  <style>
+    /* Custom Styles & Exact Signage Font Effects */
+    body {
+      font-family: 'Inter', sans-serif;
+      scroll-behavior: smooth;
+    }
+
+    /* Brand Logo Text Style matching signage */
+    .brand-akshay-text {
+      font-family: 'Alfa Slab One', 'Montserrat', sans-serif;
+      letter-spacing: 2px;
+      background: linear-gradient(180deg, #FF7043 0%, #FF5722 50%, #D84315 100%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      text-shadow: 2px 2px 0px rgba(0,0,0,0.15);
+      filter: drop-shadow(0px 2px 3px rgba(0,0,0,0.3));
+    }
+
+    .brand-enterprises-text {
+      font-family: 'Montserrat', sans-serif;
+      font-weight: 900;
+      letter-spacing: 3px;
+      color: #00A8E8;
+      text-shadow: 0 2px 4px rgba(0,168,232,0.2);
+    }
+
+    /* Glassmorphism effects */
+    .glass-card {
+      background: rgba(255, 255, 255, 0.85);
+      backdrop-filter: blur(12px);
+      border: 1px solid rgba(255, 255, 255, 0.3);
+    }
+
+    .glass-dark {
+      background: rgba(26, 32, 44, 0.85);
+      backdrop-filter: blur(12px);
+      border: 1px solid rgba(255, 255, 255, 0.1);
+    }
+
+    /* Floating Wave animation canvas */
+    #waveCanvas {
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      width: 100%;
+      height: 120px;
+      pointer-events: none;
+    }
+
+    /* Nav active tab highlight */
+    .nav-link.active {
+      color: #00A8E8;
+      border-bottom: 3px solid #00A8E8;
+      font-weight: 700;
+    }
+
+    /* Custom scrollbar */
+    ::-webkit-scrollbar {
+      width: 8px;
+    }
+    ::-webkit-scrollbar-track {
+      background: #1A202C;
+    }
+    ::-webkit-scrollbar-thumb {
+      background: #00A8E8;
+      border-radius: 4px;
+    }
+    ::-webkit-scrollbar-thumb:hover {
+      background: #2ECC71;
+    }
+
+    .pulse-glow {
+      animation: pulseGlow 2s infinite ease-in-out;
+    }
+
+    @keyframes pulseGlow {
+      0%, 100% { box-shadow: 0 0 15px rgba(0, 168, 232, 0.4); }
+      50% { box-shadow: 0 0 25px rgba(46, 204, 113, 0.7); }
+    }
+  </style>
+</head>
+<body class="bg-slate-50 text-slate-800 antialiased flex flex-col min-h-screen">
+
+  <!-- TOP INFORMATION BAR -->
+  <div class="bg-brandDark text-white text-xs md:text-sm py-2 px-4 border-b border-slate-700">
+    <div class="max-w-7xl mx-auto flex flex-col md:flex-row justify-between items-center gap-2">
+      <div class="flex flex-wrap items-center justify-center md:justify-start gap-4">
+        <span class="flex items-center gap-1.5"><i class="fa-solid font-bold text-brandCyan fa-location-dot"></i> Plot No. 49, Rd No. 3, Sector-1/s, New Panvel East, Navi Mumbai 410206</span>
+        <span class="hidden lg:inline-block text-slate-500">|</span>
+        <a href="mailto:akshayenterprises.mumbai@gmail.com" class="flex items-center gap-1.5 hover:text-brandCyan transition"><i class="fa-solid text-brandCyan fa-envelope"></i> akshayenterprises.mumbai@gmail.com</a>
+      </div>
+      <div class="flex items-center gap-4">
+        <a href="tel:+919892770989" class="flex items-center gap-1 text-brandGreen font-semibold hover:underline">
+          <i class="fa-solid fa-phone"></i> +91 9892770989
+        </a>
+        <a href="https://wa.me/919892770989" target="_blank" rel="noopener noreferrer" class="bg-green-600 hover:bg-green-500 text-white px-2.5 py-0.5 rounded-full text-xs font-medium flex items-center gap-1">
+          <i class="fa-brands fa-whatsapp"></i> WhatsApp
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <!-- MAIN HEADER / NAVIGATION -->
+  <header class="sticky top-0 z-50 bg-white/95 backdrop-blur shadow-md transition-all">
+    <div class="max-w-7xl mx-auto px-4 py-3 flex justify-between items-center">
+      
+      <!-- LOGO BRANDING (Matching Shop Signage) -->
+      <a href="#" onclick="switchTab('home')" class="flex items-center gap-3 group">
+        <!-- SVG Logo Symbol replicating Gear + Water Drop + AE Initials -->
+        <div class="w-12 h-12 md:w-14 md:h-14 relative flex-shrink-0 transition-transform duration-300 group-hover:scale-105">
+          <svg viewBox="0 0 100 100" class="w-full h-full filter drop-shadow">
+            <!-- Outer Gear Ring Split Green/Blue -->
+            <path d="M50 5 L55 12 L65 10 L68 18 L77 19 L77 28 L85 32 L82 40 L89 47 L83 53 L87 61 L79 66 L80 75 L71 78 L69 87 L60 87 L55 95 L45 95 L40 87 L31 87 L29 78 L20 75 L21 66 L13 61 L17 53 L11 47 L18 40 L15 32 L23 28 L23 19 L32 18 L35 10 L45 12 Z" fill="#0F4C81"/>
+            <!-- Left Side Green Arc Overlay -->
+            <path d="M50 5 C25 5 5 25 5 50 C5 75 25 95 50 95 Z" fill="#2ECC71" opacity="0.9" clip-path="url(#gearClip)"/>
+            <clipPath id="gearClip">
+              <path d="M50 5 L55 12 L65 10 L68 18 L77 19 L77 28 L85 32 L82 40 L89 47 L83 53 L87 61 L79 66 L80 75 L71 78 L69 87 L60 87 L55 95 L45 95 L40 87 L31 87 L29 78 L20 75 L21 66 L13 61 L17 53 L11 47 L18 40 L15 32 L23 28 L23 19 L32 18 L35 10 L45 12 Z"/>
+            </clipPath>
+            <!-- Inner White Circle Base -->
+            <circle cx="50" cy="50" r="32" fill="#FFFFFF"/>
+            <!-- Inner Water Drop -->
+            <path d="M50 22 C50 22 30 45 30 58 C30 69 39 77 50 77 C61 77 70 69 70 58 C70 45 50 22 50 22 Z" fill="#00A8FF"/>
+            <!-- Stylized White AE Monogram -->
+            <path d="M42 62 L50 40 L58 62 M44 56 L56 56" stroke="#FFFFFF" stroke-width="4.5" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+          </svg>
+        </div>
+
+        <!-- Text Emblem -->
+        <div class="flex flex-col">
+          <div class="brand-akshay-text text-xl md:text-2xl leading-none">AKSHAY</div>
+          <div class="brand-enterprises-text text-xs md:text-sm leading-tight tracking-wider">ENTERPRISES</div>
+          <span class="text-[9px] font-semibold uppercase tracking-widest text-slate-500 hidden sm:block">Water Treatment & STP Solutions</span>
+        </div>
+      </a>
+
+      <!-- Desktop Nav -->
+      <nav class="hidden xl:flex items-center space-x-1 text-sm font-medium text-slate-700">
+        <button onclick="switchTab('home')" class="nav-link px-3 py-2 hover:text-brandCyan transition active" id="nav-home">Home</button>
+        <button onclick="switchTab('about')" class="nav-link px-3 py-2 hover:text-brandCyan transition" id="nav-about">About Us</button>
+        <button onclick="switchTab('products')" class="nav-link px-3 py-2 hover:text-brandCyan transition" id="nav-products">Products</button>
+        <button onclick="switchTab('services')" class="nav-link px-3 py-2 hover:text-brandCyan transition" id="nav-services">Services</button>
+        <button onclick="switchTab('stp')" class="nav-link px-3 py-2 hover:text-brandCyan transition" id="nav-stp">STP Solutions</button>
+        <button onclick="switchTab('wtp')" class="nav-link px-3 py-2 hover:text-brandCyan transition" id="nav-wtp">Water Treatment</button>
+        <button onclick="switchTab('industries')" class="nav-link px-3 py-2 hover:text-brandCyan transition" id="nav-industries">Industries</button>
+        <button onclick="switchTab('projects')" class="nav-link px-3 py-2 hover:text-brandCyan transition" id="nav-projects">Projects</button>
+        <button onclick="switchTab('gallery')" class="nav-link px-3 py-2 hover:text-brandCyan transition" id="nav-gallery">Gallery</button>
+        <button onclick="switchTab('faq')" class="nav-link px-3 py-2 hover:text-brandCyan transition" id="nav-faq">FAQ</button>
+        <button onclick="switchTab('contact')" class="nav-link px-3 py-2 hover:text-brandCyan transition" id="nav-contact">Contact</button>
+      </nav>
+
+      <!-- Action CTA Button -->
+      <div class="hidden sm:flex items-center gap-3">
+        <button onclick="openEnquiryModal('General Requirement')" class="bg-gradient-to-r from-brandOrange to-brandOrangeDark text-white font-semibold text-xs md:text-sm px-4 py-2.5 rounded-lg shadow-md hover:shadow-lg hover:opacity-95 transition transform hover:-translate-y-0.5">
+          Get Free Quote
+        </button>
+      </div>
+
+      <!-- Mobile Menu Toggle Button -->
+      <button id="mobileMenuBtn" onclick="toggleMobileMenu()" class="xl:hidden p-2 text-slate-700 hover:text-brandCyan focus:outline-none">
+        <i class="fa-solid fa-bars text-2xl"></i>
+      </button>
+    </div>
+
+    <!-- Mobile Navigation Drawer -->
+    <div id="mobileMenu" class="hidden xl:hidden bg-slate-900 text-white border-t border-slate-800 px-4 pt-3 pb-6 space-y-2">
+      <button onclick="switchTab('home')" class="block w-full text-left py-2 px-3 rounded hover:bg-slate-800 text-brandCyan">Home</button>
+      <button onclick="switchTab('about')" class="block w-full text-left py-2 px-3 rounded hover:bg-slate-800">About Us</button>
+      <button onclick="switchTab('products')" class="block w-full text-left py-2 px-3 rounded hover:bg-slate-800">Products & Equipment</button>
+      <button onclick="switchTab('services')" class="block w-full text-left py-2 px-3 rounded hover:bg-slate-800">Services</button>
+      <button onclick="switchTab('stp')" class="block w-full text-left py-2 px-3 rounded hover:bg-slate-800">STP Solutions</button>
+      <button onclick="switchTab('wtp')" class="block w-full text-left py-2 px-3 rounded hover:bg-slate-800">Water Treatment</button>
+      <button onclick="switchTab('industries')" class="block w-full text-left py-2 px-3 rounded hover:bg-slate-800">Industries We Serve</button>
+      <button onclick="switchTab('projects')" class="block w-full text-left py-2 px-3 rounded hover:bg-slate-800">Our Projects</button>
+      <button onclick="switchTab('gallery')" class="block w-full text-left py-2 px-3 rounded hover:bg-slate-800">Gallery</button>
+      <button onclick="switchTab('faq')" class="block w-full text-left py-2 px-3 rounded hover:bg-slate-800">FAQ</button>
+      <button onclick="switchTab('contact')" class="block w-full text-left py-2 px-3 rounded hover:bg-slate-800">Contact Us</button>
+      
+      <div class="pt-4 border-t border-slate-800 flex gap-2">
+        <button onclick="openEnquiryModal('Mobile Menu Quick Enquiry')" class="w-full bg-brandCyan text-white py-2.5 rounded-lg font-medium text-center">
+          Instant Enquiry
+        </button>
+        <a href="tel:+919892770989" class="bg-brandGreen text-white py-2.5 px-4 rounded-lg font-medium text-center flex items-center justify-center">
+          <i class="fa-solid fa-phone"></i>
+        </a>
+      </div>
+    </div>
+  </header>
+
+  <!-- DYNAMIC VIEW CONTAINER -->
+  <main class="flex-grow">
+
+    <!-- PAGE 1: HOME TAB -->
+    <section id="page-home" class="tab-content block">
+      
+      <!-- HERO BANNER WITH CANVAS WAVE -->
+      <div class="relative bg-gradient-to-br from-brandCharcoal via-brandDeepBlue to-slate-900 text-white overflow-hidden pt-12 pb-24 md:pt-20 md:pb-32">
+        <!-- Background Grid Pattern -->
+        <div class="absolute inset-0 opacity-10 bg-[radial-gradient(#00A8E8_1px,transparent_1px)] [background-size:16px_16px]"></div>
+        
+        <div class="max-w-7xl mx-auto px-4 relative z-10 grid grid-cols-1 lg:grid-cols-12 gap-8 items-center">
+          
+          <div class="lg:col-span-7 space-y-6 text-center lg:text-left">
+            <div class="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-brandCyan/20 border border-brandCyan/40 text-brandCyan text-xs md:text-sm font-semibold tracking-wide">
+              <span class="w-2 h-2 rounded-full bg-brandGreen animate-ping"></span>
+              NEW PANVEL, MAHARASHTRA
+            </div>
+            
+            <h1 class="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-extrabold tracking-tight leading-tight">
+              Complete <span class="text-transparent bg-clip-text bg-gradient-to-r from-brandCyan via-teal-300 to-brandGreen">Water Treatment</span> & <span class="text-brandOrange">STP Solutions</span>
+            </h1>
+
+            <p class="text-slate-300 text-base md:text-lg max-w-2xl font-light leading-relaxed">
+              Reliable Water Treatment, Sewage Treatment and Wastewater Management Solutions for Residential, Commercial and Industrial Applications.
+            </p>
+
+            <p class="text-slate-400 text-sm max-w-2xl">
+              Akshay Enterprises, based in New Panvel, Maharashtra, provides water treatment solutions and related services designed to meet different customer requirements. We help explore suitable water treatment systems, STP solutions, equipment, and technical support.
+            </p>
+
+            <!-- CTA Buttons -->
+            <div class="flex flex-wrap items-center justify-center lg:justify-start gap-4 pt-4">
+              <button onclick="switchTab('products')" class="bg-gradient-to-r from-brandCyan to-blue-600 text-white font-semibold px-6 py-3.5 rounded-xl shadow-lg hover:shadow-cyan-500/30 hover:scale-105 transition duration-200">
+                Explore Our Products <i class="fa-solid fa-arrow-right ml-2"></i>
+              </button>
+              <button onclick="switchTab('services')" class="bg-slate-800 hover:bg-slate-700 text-white font-semibold border border-slate-600 px-6 py-3.5 rounded-xl transition duration-200">
+                Our Services
+              </button>
+              <button onclick="switchTab('contact')" class="bg-gradient-to-r from-brandOrange to-brandOrangeDark text-white font-semibold px-6 py-3.5 rounded-xl shadow-lg hover:shadow-orange-500/30 hover:scale-105 transition duration-200">
+                Contact Us
+              </button>
+            </div>
+          </div>
+
+          <!-- Hero Image & Interactive Card -->
+          <div class="lg:col-span-5 flex justify-center">
+            <div class="relative w-full max-w-md">
+              <div class="absolute -inset-1 rounded-2xl bg-gradient-to-r from-brandCyan via-brandGreen to-brandOrange opacity-70 blur-lg animate-pulse"></div>
+              <div class="relative rounded-2xl overflow-hidden shadow-2xl bg-slate-900 border border-slate-700">
+                <img src="https://images.unsplash.com/photo-1581092160607-ee22621dd758?auto=format&fit=crop&w=800&q=80" alt="Water Treatment Plant Facility" class="w-full h-64 sm:h-72 object-cover opacity-85">
+                <div class="p-6 space-y-3 bg-slate-900/90 backdrop-blur">
+                  <div class="flex items-center justify-between">
+                    <span class="text-xs text-brandGreen font-semibold uppercase tracking-wider"><i class="fa-solid fa-shield-halved"></i> Certified Standards</span>
+                    <span class="text-xs text-slate-400">Panvel & Navi Mumbai</span>
+                  </div>
+                  <h3 class="text-xl font-bold text-white">Engineered Water Systems</h3>
+                  <p class="text-xs text-slate-300">Custom STP, ETP, RO & Softener plants designed for optimal capacity and statutory compliance.</p>
+                  <button onclick="openEnquiryModal('Hero Consultation Request')" class="w-full py-2.5 bg-brandCyan hover:bg-sky-400 text-slate-900 font-bold text-sm rounded-lg transition">
+                    Request Site Inspection
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+        <!-- Animated Liquid Wave Canvas -->
+        <canvas id="waveCanvas"></canvas>
+      </div>
+
+      <!-- STATS STRIP -->
+      <div class="bg-brandCharcoal text-white py-8 border-y border-slate-800">
+        <div class="max-w-7xl mx-auto px-4 grid grid-cols-2 md:grid-cols-4 gap-6 text-center">
+          <div class="p-4 rounded-xl bg-slate-800/50">
+            <div class="text-3xl md:text-4xl font-extrabold text-brandCyan">100+</div>
+            <div class="text-xs md:text-sm text-slate-400 mt-1">Projects Supported</div>
+          </div>
+          <div class="p-4 rounded-xl bg-slate-800/50">
+            <div class="text-3xl md:text-4xl font-extrabold text-brandGreen">100%</div>
+            <div class="text-xs md:text-sm text-slate-400 mt-1">Customised Solutions</div>
+          </div>
+          <div class="p-4 rounded-xl bg-slate-800/50">
+            <div class="text-3xl md:text-4xl font-extrabold text-brandOrange">24/7</div>
+            <div class="text-xs md:text-sm text-slate-400 mt-1">Technical Assistance</div>
+          </div>
+          <div class="p-4 rounded-xl bg-slate-800/50">
+            <div class="text-3xl md:text-4xl font-extrabold text-brandCyan">New Panvel</div>
+            <div class="text-xs md:text-sm text-slate-400 mt-1">Strategic Location</div>
+          </div>
+        </div>
+      </div>
+
+      <!-- INTRODUCTION SECTION -->
+      <div class="py-16 md:py-24 bg-white">
+        <div class="max-w-7xl mx-auto px-4 grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+          <div class="space-y-6">
+            <div class="inline-block text-brandCyan font-bold text-sm uppercase tracking-wider">Welcome to Akshay Enterprises</div>
+            <h2 class="text-3xl md:text-4xl font-extrabold text-slate-900 leading-tight">
+              Your Partner for Water Treatment & STP Solutions
+            </h2>
+            <p class="text-slate-600 leading-relaxed">
+              Akshay Enterprises is a water treatment and STP solutions business located in New Panvel, Maharashtra. We work in the water treatment sector, focusing on solutions for water purification, wastewater treatment, and sewage treatment requirements.
+            </p>
+            <p class="text-slate-600 leading-relaxed">
+              Our objective is to understand customer requirements and provide suitable products, equipment and services for different applications. Whether you are looking for water treatment equipment, sewage treatment solutions or technical assistance, Akshay Enterprises is ready to understand your requirement and help you explore suitable options.
+            </p>
+
+            <div class="bg-slate-50 p-6 rounded-2xl border border-slate-200">
+              <h4 class="font-bold text-slate-900 mb-3 text-lg flex items-center gap-2">
+                <i class="fa-solid fa-bullseye text-brandOrange"></i> Our Core Focus Areas:
+              </h4>
+              <ul class="grid grid-cols-1 sm:grid-cols-2 gap-2 text-sm text-slate-700">
+                <li class="flex items-center gap-2"><i class="fa-solid fa-check text-brandGreen"></i> Water Treatment Solutions</li>
+                <li class="flex items-center gap-2"><i class="fa-solid fa-check text-brandGreen"></i> Sewage Treatment Plant Solutions</li>
+                <li class="flex items-center gap-2"><i class="fa-solid fa-check text-brandGreen"></i> Industrial Wastewater Treatment</li>
+                <li class="flex items-center gap-2"><i class="fa-solid fa-check text-brandGreen"></i> Water Treatment Equipment</li>
+                <li class="flex items-center gap-2"><i class="fa-solid fa-check text-brandGreen"></i> Customer Requirement-Based Solutions</li>
+              </ul>
+            </div>
+
+            <button onclick="switchTab('about')" class="inline-flex items-center font-bold text-brandBlue hover:text-brandCyan transition text-base">
+              Know More About Us <i class="fa-solid fa-circle-arrow-right ml-2 text-lg"></i>
+            </button>
+          </div>
+
+          <!-- Right Feature Cards -->
+          <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+            <div class="p-6 rounded-2xl bg-sky-50 border border-sky-100 shadow-sm hover:shadow-md transition">
+              <div class="w-12 h-12 rounded-xl bg-brandCyan text-white flex items-center justify-center text-xl mb-4">
+                <i class="fa-solid fa-droplet"></i>
+              </div>
+              <h3 class="font-bold text-slate-900 text-lg mb-1">Purification</h3>
+              <p class="text-xs text-slate-600">Advanced filtration and RO technologies removing suspended and dissolved solids.</p>
+            </div>
+
+            <div class="p-6 rounded-2xl bg-emerald-50 border border-emerald-100 shadow-sm hover:shadow-md transition">
+              <div class="w-12 h-12 rounded-xl bg-brandGreen text-white flex items-center justify-center text-xl mb-4">
+                <i class="fa-solid fa-recycle"></i>
+              </div>
+              <h3 class="font-bold text-slate-900 text-lg mb-1">STP & ETP</h3>
+              <p class="text-xs text-slate-600">Sustainable sewage and effluent recycling systems for environmental compliance.</p>
+            </div>
+
+            <div class="p-6 rounded-2xl bg-orange-50 border border-orange-100 shadow-sm hover:shadow-md transition">
+              <div class="w-12 h-12 rounded-xl bg-brandOrange text-white flex items-center justify-center text-xl mb-4">
+                <i class="fa-solid fa-gears"></i>
+              </div>
+              <h3 class="font-bold text-slate-900 text-lg mb-1">Equipment</h3>
+              <p class="text-xs text-slate-600">High durability pumps, pressure vessels, membranes, and chemical dosers.</p>
+            </div>
+
+            <div class="p-6 rounded-2xl bg-indigo-50 border border-indigo-100 shadow-sm hover:shadow-md transition">
+              <div class="w-12 h-12 rounded-xl bg-brandBlue text-white flex items-center justify-center text-xl mb-4">
+                <i class="fa-solid fa-headset"></i>
+              </div>
+              <h3 class="font-bold text-slate-900 text-lg mb-1">Support</h3>
+              <p class="text-xs text-slate-600">Complete installation support, routine maintenance, and repair troubleshooting.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- PRODUCT OVERVIEW HIGHLIGHTS -->
+      <div class="py-16 bg-slate-100">
+        <div class="max-w-7xl mx-auto px-4">
+          <div class="text-center max-w-3xl mx-auto mb-12">
+            <span class="text-brandOrange font-bold text-sm uppercase tracking-wider">Our Product Portfolio</span>
+            <h2 class="text-3xl md:text-4xl font-extrabold text-slate-900 mt-1">Water Treatment Products & Equipment</h2>
+            <p class="text-slate-600 mt-2">Explore our range of engineered systems designed for residential, commercial, and industrial wastewater applications.</p>
+          </div>
+
+          <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+            <!-- WTP -->
+            <div class="bg-white rounded-2xl overflow-hidden shadow-md hover:shadow-xl transition border border-slate-200 flex flex-col">
+              <img src="https://images.unsplash.com/photo-1541888946425-d0fbb186a5b3?auto=format&fit=crop&w=600&q=80" alt="Water Treatment Plant" class="h-48 w-full object-cover">
+              <div class="p-6 flex-grow flex flex-col justify-between space-y-4">
+                <div>
+                  <h3 class="text-xl font-bold text-slate-900">Water Treatment Plant (WTP)</h3>
+                  <p class="text-sm text-slate-600 mt-2">Water treatment systems designed to treat water according to the required application and water quality parameters.</p>
+                </div>
+                <button onclick="openEnquiryModal('WTP Product')" class="w-full py-2.5 bg-slate-900 hover:bg-brandCyan text-white font-medium rounded-xl transition">
+                  Enquire Now
+                </button>
+              </div>
+            </div>
+
+            <!-- STP -->
+            <div class="bg-white rounded-2xl overflow-hidden shadow-md hover:shadow-xl transition border border-slate-200 flex flex-col">
+              <img src="https://images.unsplash.com/photo-1500382017468-9049fed747ef?auto=format&fit=crop&w=600&q=80" alt="Sewage Treatment Plant" class="h-48 w-full object-cover">
+              <div class="p-6 flex-grow flex flex-col justify-between space-y-4">
+                <div>
+                  <h3 class="text-xl font-bold text-slate-900">Sewage Treatment Plant (STP)</h3>
+                  <p class="text-sm text-slate-600 mt-2">Sewage treatment solutions for residential societies, commercial complexes, and institutional wastewater management.</p>
+                </div>
+                <button onclick="switchTab('stp')" class="w-full py-2.5 bg-brandBlue hover:bg-brandCyan text-white font-medium rounded-xl transition">
+                  Explore STP Solutions
+                </button>
+              </div>
+            </div>
+
+            <!-- ETP -->
+            <div class="bg-white rounded-2xl overflow-hidden shadow-md hover:shadow-xl transition border border-slate-200 flex flex-col">
+              <img src="https://images.unsplash.com/photo-1574958269340-fa927503f3dd?auto=format&fit=crop&w=600&q=80" alt="Effluent Treatment Plant" class="h-48 w-full object-cover">
+              <div class="p-6 flex-grow flex flex-col justify-between space-y-4">
+                <div>
+                  <h3 class="text-xl font-bold text-slate-900">Effluent Treatment Plant (ETP)</h3>
+                  <p class="text-sm text-slate-600 mt-2">Industrial wastewater treatment solutions based on raw wastewater characteristics and discharge norms.</p>
+                </div>
+                <button onclick="openEnquiryModal('ETP Product')" class="w-full py-2.5 bg-slate-900 hover:bg-brandCyan text-white font-medium rounded-xl transition">
+                  Enquire Now
+                </button>
+              </div>
+            </div>
+
+            <!-- RO -->
+            <div class="bg-white rounded-2xl overflow-hidden shadow-md hover:shadow-xl transition border border-slate-200 flex flex-col">
+              <img src="https://images.unsplash.com/photo-1518837695005-2083093ee35b?auto=format&fit=crop&w=600&q=80" alt="RO System" class="h-48 w-full object-cover">
+              <div class="p-6 flex-grow flex flex-col justify-between space-y-4">
+                <div>
+                  <h3 class="text-xl font-bold text-slate-900">Reverse Osmosis (RO) Systems</h3>
+                  <p class="text-sm text-slate-600 mt-2">Commercial and industrial purification systems designed for high reduction of dissolved solids (TDS).</p>
+                </div>
+                <button onclick="switchTab('products')" class="w-full py-2.5 bg-slate-100 hover:bg-slate-200 text-slate-800 font-medium rounded-xl transition">
+                  View Details
+                </button>
+              </div>
+            </div>
+
+            <!-- Softener -->
+            <div class="bg-white rounded-2xl overflow-hidden shadow-md hover:shadow-xl transition border border-slate-200 flex flex-col">
+              <img src="https://images.unsplash.com/photo-1585704032915-c3400ca199e7?auto=format&fit=crop&w=600&q=80" alt="Water Softener" class="h-48 w-full object-cover">
+              <div class="p-6 flex-grow flex flex-col justify-between space-y-4">
+                <div>
+                  <h3 class="text-xl font-bold text-slate-900">Water Softener Systems</h3>
+                  <p class="text-sm text-slate-600 mt-2">Ion-exchange softening solutions designed to eliminate hard water minerals for domestic and commercial scale.</p>
+                </div>
+                <button onclick="switchTab('products')" class="w-full py-2.5 bg-slate-100 hover:bg-slate-200 text-slate-800 font-medium rounded-xl transition">
+                  View Details
+                </button>
+              </div>
+            </div>
+
+            <!-- Filtration -->
+            <div class="bg-white rounded-2xl overflow-hidden shadow-md hover:shadow-xl transition border border-slate-200 flex flex-col">
+              <img src="https://images.unsplash.com/photo-1527016021513-b09758b777bd?auto=format&fit=crop&w=600&q=80" alt="Filtration" class="h-48 w-full object-cover">
+              <div class="p-6 flex-grow flex flex-col justify-between space-y-4">
+                <div>
+                  <h3 class="text-xl font-bold text-slate-900">Water Filtration Systems</h3>
+                  <p class="text-sm text-slate-600 mt-2">Pressure sand filters, dual media filters, and activated carbon filters for particulate removal.</p>
+                </div>
+                <button onclick="switchTab('products')" class="w-full py-2.5 bg-slate-100 hover:bg-slate-200 text-slate-800 font-medium rounded-xl transition">
+                  View Details
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- WHY CHOOSE US SECTION -->
+      <div class="py-16 md:py-24 bg-brandDark text-white">
+        <div class="max-w-7xl mx-auto px-4">
+          <div class="text-center max-w-3xl mx-auto mb-16">
+            <span class="text-brandCyan font-bold text-sm uppercase tracking-wider">Our Value Proposition</span>
+            <h2 class="text-3xl md:text-4xl font-extrabold mt-1">Why Choose Akshay Enterprises?</h2>
+            <p class="text-slate-400 mt-2">At Akshay Enterprises, we understand that every water treatment project has distinct requirements.</p>
+          </div>
+
+          <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+            <div class="p-8 rounded-2xl bg-slate-800/80 border border-slate-700 space-y-3">
+              <div class="text-brandCyan text-3xl"><i class="fa-solid fa-users-gear"></i></div>
+              <h3 class="text-xl font-bold">Customer-Focused Approach</h3>
+              <p class="text-sm text-slate-300">We aim to understand your exact site requirements and raw water condition before suggesting suitable equipment.</p>
+            </div>
+
+            <div class="p-8 rounded-2xl bg-slate-800/80 border border-slate-700 space-y-3">
+              <div class="text-brandGreen text-3xl"><i class="fa-solid fa-award"></i></div>
+              <h3 class="text-xl font-bold">Water Treatment Expertise</h3>
+              <p class="text-sm text-slate-300">Our core business centers on specialized water treatment and sewage treatment plant (STP) design and supply.</p>
+            </div>
+
+            <div class="p-8 rounded-2xl bg-slate-800/80 border border-slate-700 space-y-3">
+              <div class="text-brandOrange text-3xl"><i class="fa-solid fa-diagram-project"></i></div>
+              <h3 class="text-xl font-bold">Application-Based Solutions</h3>
+              <p class="text-sm text-slate-300">Treatment processes selected according to intended application, space availability, and target water standards.</p>
+            </div>
+
+            <div class="p-8 rounded-2xl bg-slate-800/80 border border-slate-700 space-y-3">
+              <div class="text-brandCyan text-3xl"><i class="fa-solid fa-box-open"></i></div>
+              <h3 class="text-xl font-bold">Product & Equipment Support</h3>
+              <p class="text-sm text-slate-300">Complete access to high quality spare parts, filter media, valves, pumps, and treatment chemicals.</p>
+            </div>
+
+            <div class="p-8 rounded-2xl bg-slate-800/80 border border-slate-700 space-y-3">
+              <div class="text-brandGreen text-3xl"><i class="fa-solid fa-wrench"></i></div>
+              <h3 class="text-xl font-bold">Technical Assistance</h3>
+              <p class="text-sm text-slate-300">Responsive technical support, system troubleshooting, and regular scheduled maintenance assistance.</p>
+            </div>
+
+            <div class="p-8 rounded-2xl bg-slate-800/80 border border-slate-700 space-y-3">
+              <div class="text-brandOrange text-3xl"><i class="fa-solid fa-map-location-dot"></i></div>
+              <h3 class="text-xl font-bold">Convenient Location</h3>
+              <p class="text-sm text-slate-300">Strategically located in New Panvel, Maharashtra, serving Navi Mumbai and industrial corridors promptly.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- HOME CTA BAR -->
+      <div class="bg-gradient-to-r from-brandBlue to-brandCyan text-white py-12 px-4">
+        <div class="max-w-7xl mx-auto flex flex-col md:flex-row items-center justify-between gap-6 text-center md:text-left">
+          <div>
+            <h3 class="text-2xl md:text-3xl font-extrabold">Let's Discuss Your Water Treatment Requirements</h3>
+            <p class="text-sky-100 text-sm mt-1">Looking for a Water Treatment Plant, STP Solution, or Water Filtration System?</p>
+          </div>
+          <div class="flex flex-wrap justify-center gap-3">
+            <a href="tel:+919892770989" class="bg-white text-brandBlue font-bold px-5 py-3 rounded-xl hover:bg-slate-100 transition shadow">
+              <i class="fa-solid fa-phone mr-1"></i> Call Us
+            </a>
+            <a href="https://wa.me/919892770989" target="_blank" rel="noopener noreferrer" class="bg-emerald-500 text-white font-bold px-5 py-3 rounded-xl hover:bg-emerald-600 transition shadow">
+              <i class="fa-brands fa-whatsapp mr-1"></i> WhatsApp Us
+            </a>
+            <button onclick="openEnquiryModal('Home Banner Footer')" class="bg-brandOrange hover:bg-brandOrangeDark text-white font-bold px-5 py-3 rounded-xl transition shadow">
+              Send Enquiry
+            </button>
+          </div>
+        </div>
+      </div>
+
+    </section>
+
+    <!-- PAGE 2: ABOUT US TAB -->
+    <section id="page-about" class="tab-content hidden">
+      <div class="bg-slate-900 text-white py-12 px-4 border-b border-slate-800">
+        <div class="max-w-7xl mx-auto">
+          <span class="text-brandCyan font-semibold text-xs tracking-widest uppercase">About Our Company</span>
+          <h1 class="text-3xl md:text-5xl font-extrabold mt-1">About Akshay Enterprises</h1>
+          <p class="text-slate-400 mt-2 max-w-2xl">Your Partner for Water Treatment & STP Solutions in New Panvel, Maharashtra, India.</p>
+        </div>
+      </div>
+
+      <div class="py-16 bg-white">
+        <div class="max-w-7xl mx-auto px-4 space-y-16">
+          
+          <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+            <div class="space-y-4">
+              <h2 class="text-2xl md:text-3xl font-bold text-slate-900">Who We Are</h2>
+              <p class="text-slate-600 leading-relaxed">
+                Akshay Enterprises is a water treatment and STP solutions business based in New Panvel, Maharashtra, India. We work in the water treatment sector, providing products and solutions related to water purification, wastewater management, and sewage treatment requirements.
+              </p>
+              <p class="text-slate-600 leading-relaxed">
+                Our business focuses on understanding customer requirements and helping them explore suitable water treatment systems, equipment, and services. Water treatment requirements differ according to the application, water source, quality parameters, and required capacity.
+              </p>
+              <p class="text-slate-600 leading-relaxed">
+                At Akshay Enterprises, we aim to support customers by discussing their requirements and identifying suitable solutions based on the information provided for residential, commercial, and industrial applications.
+              </p>
+            </div>
+            <div class="relative">
+              <img src="https://images.unsplash.com/photo-1581092335397-9583fe92d232?auto=format&fit=crop&w=800&q=80" alt="Water Analysis & Engineering" class="rounded-2xl shadow-xl">
+              <div class="absolute -bottom-6 -left-6 bg-brandBlue text-white p-6 rounded-2xl hidden sm:block max-w-xs shadow-2xl">
+                <div class="text-2xl font-bold text-brandCyan">New Panvel</div>
+                <div class="text-xs text-slate-200 mt-1">Serving clients with commitment, reliability, and engineering support.</div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Mission & Vision -->
+          <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+            <div class="p-8 rounded-2xl bg-sky-50 border border-sky-100 space-y-3">
+              <div class="w-12 h-12 rounded-xl bg-brandCyan text-white flex items-center justify-center text-xl">
+                <i class="fa-solid fa-compass"></i>
+              </div>
+              <h3 class="text-2xl font-bold text-slate-900">Our Mission</h3>
+              <p class="text-slate-600 text-sm leading-relaxed">
+                To provide suitable water treatment and wastewater management solutions according to customer requirements, with a focus on product suitability, technical understanding, and customer support.
+              </p>
+            </div>
+
+            <div class="p-8 rounded-2xl bg-emerald-50 border border-emerald-100 space-y-3">
+              <div class="w-12 h-12 rounded-xl bg-brandGreen text-white flex items-center justify-center text-xl">
+                <i class="fa-solid fa-eye"></i>
+              </div>
+              <h3 class="text-2xl font-bold text-slate-900">Our Vision</h3>
+              <p class="text-slate-600 text-sm leading-relaxed">
+                To build long-term customer relationships and develop Akshay Enterprises as a trusted name in water treatment and STP solutions across Maharashtra.
+              </p>
+            </div>
+          </div>
+
+          <!-- Business Approach -->
+          <div class="bg-slate-50 p-8 rounded-2xl border border-slate-200 space-y-6">
+            <h3 class="text-2xl font-bold text-slate-900">Our Business Approach</h3>
+            <p class="text-slate-600 text-sm">We believe that understanding the customer's requirement is an important step in selecting a suitable water treatment solution.</p>
+            
+            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 gap-4">
+              <div class="bg-white p-4 rounded-xl border border-slate-200 text-center space-y-2">
+                <div class="w-8 h-8 rounded-full bg-brandCyan/20 text-brandCyan font-bold mx-auto flex items-center justify-center">1</div>
+                <h4 class="font-semibold text-slate-800 text-sm">Understand Application</h4>
+              </div>
+              <div class="bg-white p-4 rounded-xl border border-slate-200 text-center space-y-2">
+                <div class="w-8 h-8 rounded-full bg-brandCyan/20 text-brandCyan font-bold mx-auto flex items-center justify-center">2</div>
+                <h4 class="font-semibold text-slate-800 text-sm">Review Water Parameters</h4>
+              </div>
+              <div class="bg-white p-4 rounded-xl border border-slate-200 text-center space-y-2">
+                <div class="w-8 h-8 rounded-full bg-brandCyan/20 text-brandCyan font-bold mx-auto flex items-center justify-center">3</div>
+                <h4 class="font-semibold text-slate-800 text-sm">Discuss Products</h4>
+              </div>
+              <div class="bg-white p-4 rounded-xl border border-slate-200 text-center space-y-2">
+                <div class="w-8 h-8 rounded-full bg-brandCyan/20 text-brandCyan font-bold mx-auto flex items-center justify-center">4</div>
+                <h4 class="font-semibold text-slate-800 text-sm">Provide Technical Details</h4>
+              </div>
+              <div class="bg-white p-4 rounded-xl border border-slate-200 text-center space-y-2">
+                <div class="w-8 h-8 rounded-full bg-brandCyan/20 text-brandCyan font-bold mx-auto flex items-center justify-center">5</div>
+                <h4 class="font-semibold text-slate-800 text-sm">Support Execution</h4>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- PAGE 3: PRODUCTS TAB -->
+    <section id="page-products" class="tab-content hidden">
+      <div class="bg-slate-900 text-white py-12 px-4">
+        <div class="max-w-7xl mx-auto text-center">
+          <span class="text-brandCyan font-semibold text-xs tracking-widest uppercase">Comprehensive Equipment Portfolio</span>
+          <h1 class="text-3xl md:text-5xl font-extrabold mt-1">Water Treatment Products & Equipment</h1>
+          <p class="text-slate-400 mt-2 max-w-2xl mx-auto">High reliability plant designs, filtration units, and components tailored for your specifications.</p>
+        </div>
+      </div>
+
+      <div class="py-12 bg-slate-50">
+        <div class="max-w-7xl mx-auto px-4 space-y-12">
+          
+          <!-- Category Filters -->
+          <div class="flex flex-wrap justify-center gap-2" id="productFilterBar">
+            <button onclick="filterProducts('all')" class="prod-filter-btn px-4 py-2 rounded-full bg-brandBlue text-white text-sm font-medium">All Products</button>
+            <button onclick="filterProducts('plants')" class="prod-filter-btn px-4 py-2 rounded-full bg-white text-slate-700 hover:bg-slate-200 text-sm font-medium border border-slate-300">Treatment Plants (WTP/STP/ETP)</button>
+            <button onclick="filterProducts('purification')" class="prod-filter-btn px-4 py-2 rounded-full bg-white text-slate-700 hover:bg-slate-200 text-sm font-medium border border-slate-300">Purification & RO</button>
+            <button onclick="filterProducts('softening')" class="prod-filter-btn px-4 py-2 rounded-full bg-white text-slate-700 hover:bg-slate-200 text-sm font-medium border border-slate-300">Softeners & Filters</button>
+          </div>
+
+          <!-- Product Details List -->
+          <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8" id="productsGrid">
+            
+            <!-- 1. WTP -->
+            <div class="prod-card plants bg-white rounded-2xl border border-slate-200 shadow-sm hover:shadow-lg transition p-6 flex flex-col justify-between space-y-4">
+              <div>
+                <span class="text-xs font-semibold text-brandCyan bg-sky-50 px-2.5 py-1 rounded-full">Treatment Plant</span>
+                <h3 class="text-xl font-bold text-slate-900 mt-2">1. Water Treatment Plant (WTP)</h3>
+                <p class="text-slate-600 text-sm mt-2">Water Treatment Plants are designed to treat raw water according to its source, raw quality, and intended end use.</p>
+                <div class="mt-4 space-y-1 text-xs text-slate-500">
+                  <div class="font-bold text-slate-700">Common Applications:</div>
+                  <div>• Residential Buildings & Societies</div>
+                  <div>• Commercial Facilities & Offices</div>
+                  <div>• Industrial Process Water</div>
+                </div>
+              </div>
+              <button onclick="openEnquiryModal('WTP Product Page')" class="w-full py-2.5 bg-brandBlue hover:bg-brandCyan text-white font-semibold rounded-xl text-sm transition">
+                Product Enquiry
+              </button>
+            </div>
+
+            <!-- 2. STP -->
+            <div class="prod-card plants bg-white rounded-2xl border border-slate-200 shadow-sm hover:shadow-lg transition p-6 flex flex-col justify-between space-y-4">
+              <div>
+                <span class="text-xs font-semibold text-brandGreen bg-emerald-50 px-2.5 py-1 rounded-full">Sewage Solution</span>
+                <h3 class="text-xl font-bold text-slate-900 mt-2">2. Sewage Treatment Plant (STP)</h3>
+                <p class="text-slate-600 text-sm mt-2">Used to treat domestic wastewater generated from residential, commercial, and institutional facilities.</p>
+                <div class="mt-4 space-y-1 text-xs text-slate-500">
+                  <div class="font-bold text-slate-700">Common Applications:</div>
+                  <div>• Housing Societies & Apartments</div>
+                  <div>• Hotels, Hospitals & Malls</div>
+                  <div>• Educational Institutions</div>
+                </div>
+              </div>
+              <button onclick="switchTab('stp')" class="w-full py-2.5 bg-brandGreen hover:bg-emerald-600 text-white font-semibold rounded-xl text-sm transition">
+                Share Project Details
+              </button>
+            </div>
+
+            <!-- 3. ETP -->
+            <div class="prod-card plants bg-white rounded-2xl border border-slate-200 shadow-sm hover:shadow-lg transition p-6 flex flex-col justify-between space-y-4">
+              <div>
+                <span class="text-xs font-semibold text-brandOrange bg-orange-50 px-2.5 py-1 rounded-full">Industrial</span>
+                <h3 class="text-xl font-bold text-slate-900 mt-2">3. Effluent Treatment Plant (ETP)</h3>
+                <p class="text-slate-600 text-sm mt-2">Designed for treating industrial trade effluents depending on chemical characteristics and pollution control guidelines.</p>
+                <div class="mt-4 space-y-1 text-xs text-slate-500">
+                  <div class="font-bold text-slate-700">Common Applications:</div>
+                  <div>• Manufacturing Facilities</div>
+                  <div>• Processing Units & Chemical Plants</div>
+                  <div>• Commercial Operations</div>
+                </div>
+              </div>
+              <button onclick="openEnquiryModal('ETP Product Page')" class="w-full py-2.5 bg-slate-900 hover:bg-slate-800 text-white font-semibold rounded-xl text-sm transition">
+                Industrial Enquiry
+              </button>
+            </div>
+
+            <!-- 4. RO Systems -->
+            <div class="prod-card purification bg-white rounded-2xl border border-slate-200 shadow-sm hover:shadow-lg transition p-6 flex flex-col justify-between space-y-4">
+              <div>
+                <span class="text-xs font-semibold text-brandCyan bg-sky-50 px-2.5 py-1 rounded-full">Purification</span>
+                <h3 class="text-xl font-bold text-slate-900 mt-2">4. Reverse Osmosis (RO) Systems</h3>
+                <p class="text-slate-600 text-sm mt-2">RO plants reduce total dissolved solids (TDS), salinity, and heavy minerals for high clarity process water.</p>
+                <div class="mt-4 space-y-1 text-xs text-slate-500">
+                  <div class="font-bold text-slate-700">Common Applications:</div>
+                  <div>• Commercial Water Purification</div>
+                  <div>• Boiler Feed & Process Water</div>
+                  <div>• Drinking Water Stations</div>
+                </div>
+              </div>
+              <button onclick="openEnquiryModal('RO System Product')" class="w-full py-2.5 bg-brandBlue hover:bg-brandCyan text-white font-semibold rounded-xl text-sm transition">
+                Discuss RO Requirements
+              </button>
+            </div>
+
+            <!-- 5. Water Softener Systems -->
+            <div class="prod-card softening bg-white rounded-2xl border border-slate-200 shadow-sm hover:shadow-lg transition p-6 flex flex-col justify-between space-y-4">
+              <div>
+                <span class="text-xs font-semibold text-brandCyan bg-sky-50 px-2.5 py-1 rounded-full">Softening</span>
+                <h3 class="text-xl font-bold text-slate-900 mt-2">5. Water Softener Systems</h3>
+                <p class="text-slate-600 text-sm mt-2">Ion-exchange water softener units that reduce hard water scaling in pipes, cooling towers, and boilers.</p>
+                <div class="mt-4 space-y-1 text-xs text-slate-500">
+                  <div class="font-bold text-slate-700">Common Applications:</div>
+                  <div>• Residential Facilities & Villas</div>
+                  <div>• Commercial Laundries & Hotels</div>
+                  <div>• Industrial Cooling Systems</div>
+                </div>
+              </div>
+              <button onclick="openEnquiryModal('Water Softener Product')" class="w-full py-2.5 bg-brandBlue hover:bg-brandCyan text-white font-semibold rounded-xl text-sm transition">
+                Share Hardness Details
+              </button>
+            </div>
+
+            <!-- 6. Water Filtration Systems -->
+            <div class="prod-card softening bg-white rounded-2xl border border-slate-200 shadow-sm hover:shadow-lg transition p-6 flex flex-col justify-between space-y-4">
+              <div>
+                <span class="text-xs font-semibold text-brandCyan bg-sky-50 px-2.5 py-1 rounded-full">Filtration</span>
+                <h3 class="text-xl font-bold text-slate-900 mt-2">6. Water Filtration Systems</h3>
+                <p class="text-slate-600 text-sm mt-2">Multi-grade filtration units to effectively eliminate suspended solids, turbidity, chlorine, odor, and color.</p>
+                <div class="mt-4 space-y-1 text-xs text-slate-500">
+                  <div class="font-bold text-slate-700">Common Applications:</div>
+                  <div>• Pre-treatment for RO Systems</div>
+                  <div>• Commercial Building Filtration</div>
+                  <div>• Borewell Water Cleaning</div>
+                </div>
+              </div>
+              <button onclick="openEnquiryModal('Filtration Systems')" class="w-full py-2.5 bg-brandBlue hover:bg-brandCyan text-white font-semibold rounded-xl text-sm transition">
+                Filtration Enquiry
+              </button>
+            </div>
+
+            <!-- 7. Water Treatment Equipment -->
+            <div class="prod-card purification bg-white rounded-2xl border border-slate-200 shadow-sm hover:shadow-lg transition p-6 flex flex-col justify-between space-y-4">
+              <div>
+                <span class="text-xs font-semibold text-brandOrange bg-orange-50 px-2.5 py-1 rounded-full">Spares & Hardware</span>
+                <h3 class="text-xl font-bold text-slate-900 mt-2">7. Water Treatment Equipment</h3>
+                <p class="text-slate-600 text-sm mt-2">Dosing pumps, pressure vessels (FRP), multiport valves, filter sand, activated carbon, and RO membranes.</p>
+                <div class="mt-4 space-y-1 text-xs text-slate-500">
+                  <div class="font-bold text-slate-700">Availability:</div>
+                  <div>• Multiport Valves & Controllers</div>
+                  <div>• Dosing Systems & Chemicals</div>
+                  <div>• Filter Media & Resins</div>
+                </div>
+              </div>
+              <button onclick="openEnquiryModal('Equipment & Components')" class="w-full py-2.5 bg-slate-900 hover:bg-slate-800 text-white font-semibold rounded-xl text-sm transition">
+                Check Spares Availability
+              </button>
+            </div>
+
+          </div>
+
+          <!-- Product Enquiry Form Banner -->
+          <div class="bg-white p-8 rounded-2xl border border-slate-200 shadow-md">
+            <h3 class="text-2xl font-bold text-slate-900 mb-2">Product Enquiry Form</h3>
+            <p class="text-slate-600 text-sm mb-6">Looking for a specific water treatment product, plant capacity, or spare part? Submit your specification below.</p>
+            
+            <form onsubmit="handleFormSubmit(event, 'Product Form')" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4">
+              <input type="text" placeholder="Your Name *" required class="p-3 bg-slate-50 border border-slate-300 rounded-xl text-sm focus:outline-none focus:border-brandCyan">
+              <input type="text" placeholder="Company Name" class="p-3 bg-slate-50 border border-slate-300 rounded-xl text-sm focus:outline-none focus:border-brandCyan">
+              <input type="tel" placeholder="Mobile Number *" required class="p-3 bg-slate-50 border border-slate-300 rounded-xl text-sm focus:outline-none focus:border-brandCyan">
+              <input type="email" placeholder="Email Address *" required class="p-3 bg-slate-50 border border-slate-300 rounded-xl text-sm focus:outline-none focus:border-brandCyan">
+              
+              <select class="p-3 bg-slate-50 border border-slate-300 rounded-xl text-sm focus:outline-none focus:border-brandCyan">
+                <option value="">Select Product Required</option>
+                <option value="WTP">Water Treatment Plant (WTP)</option>
+                <option value="STP">Sewage Treatment Plant (STP)</option>
+                <option value="ETP">Effluent Treatment Plant (ETP)</option>
+                <option value="RO">RO System</option>
+                <option value="Softener">Water Softener</option>
+                <option value="Filtration">Filtration Unit</option>
+                <option value="Equipment">Equipment / Spares</option>
+              </select>
+
+              <input type="text" placeholder="Application (e.g. Society/Hotel)" class="p-3 bg-slate-50 border border-slate-300 rounded-xl text-sm focus:outline-none focus:border-brandCyan">
+              <input type="text" placeholder="Required Capacity (e.g. 50 KLD)" class="p-3 bg-slate-50 border border-slate-300 rounded-xl text-sm focus:outline-none focus:border-brandCyan">
+              <input type="text" placeholder="Location / City *" required class="p-3 bg-slate-50 border border-slate-300 rounded-xl text-sm focus:outline-none focus:border-brandCyan">
+              
+              <div class="md:col-span-2 lg:col-span-4">
+                <button type="submit" class="w-full py-3.5 bg-gradient-to-r from-brandOrange to-brandOrangeDark text-white font-bold rounded-xl shadow-lg hover:opacity-95 transition">
+                  Submit Product Enquiry
+                </button>
+              </div>
+            </form>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- PAGE 4: SERVICES TAB -->
+    <section id="page-services" class="tab-content hidden">
+      <div class="bg-slate-900 text-white py-12 px-4">
+        <div class="max-w-7xl mx-auto text-center">
+          <span class="text-brandGreen font-semibold text-xs tracking-widest uppercase">End-to-End Technical Support</span>
+          <h1 class="text-3xl md:text-5xl font-extrabold mt-1">Water Treatment Services</h1>
+          <p class="text-slate-400 mt-2 max-w-2xl mx-auto">Solutions designed around your operational requirements in New Panvel and beyond.</p>
+        </div>
+      </div>
+
+      <div class="py-16 bg-white">
+        <div class="max-w-7xl mx-auto px-4 space-y-12">
+          
+          <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+            
+            <div class="p-6 rounded-2xl bg-slate-50 border border-slate-200 hover:border-brandCyan transition space-y-3">
+              <div class="w-10 h-10 rounded-lg bg-brandCyan text-white flex items-center justify-center font-bold">1</div>
+              <h3 class="text-xl font-bold text-slate-900">Water Treatment Solutions</h3>
+              <p class="text-slate-600 text-sm">Exploration of suitable water treatment plants based on raw water source, hardness level, target output capacity, and purity requirements.</p>
+            </div>
+
+            <div class="p-6 rounded-2xl bg-slate-50 border border-slate-200 hover:border-brandCyan transition space-y-3">
+              <div class="w-10 h-10 rounded-lg bg-brandGreen text-white flex items-center justify-center font-bold">2</div>
+              <h3 class="text-xl font-bold text-slate-900">STP Solutions</h3>
+              <p class="text-slate-600 text-sm">Custom sewage treatment setups for residential societies, commercial spaces, and educational campuses fulfilling pollution norms.</p>
+            </div>
+
+            <div class="p-6 rounded-2xl bg-slate-50 border border-slate-200 hover:border-brandCyan transition space-y-3">
+              <div class="w-10 h-10 rounded-lg bg-brandOrange text-white flex items-center justify-center font-bold">3</div>
+              <h3 class="text-xl font-bold text-slate-900">Installation Support</h3>
+              <p class="text-slate-600 text-sm">Professional installation support for applicable water treatment plant equipment, piping layout, and electrical dosing setups.</p>
+            </div>
+
+            <div class="p-6 rounded-2xl bg-slate-50 border border-slate-200 hover:border-brandCyan transition space-y-3">
+              <div class="w-10 h-10 rounded-lg bg-brandBlue text-white flex items-center justify-center font-bold">4</div>
+              <h3 class="text-xl font-bold text-slate-900">Maintenance Support</h3>
+              <p class="text-slate-600 text-sm">Scheduled preventive maintenance, filter media replacement, membrane cleaning, and health checks for continuous operation.</p>
+            </div>
+
+            <div class="p-6 rounded-2xl bg-slate-50 border border-slate-200 hover:border-brandCyan transition space-y-3">
+              <div class="w-10 h-10 rounded-lg bg-purple-600 text-white flex items-center justify-center font-bold">5</div>
+              <h3 class="text-xl font-bold text-slate-900">Repair & Troubleshooting</h3>
+              <p class="text-slate-600 text-sm">Addressing plant failure, pressure drop issues, chemical dosing pump repairs, and valve replacements promptly.</p>
+            </div>
+
+            <div class="p-6 rounded-2xl bg-slate-50 border border-slate-200 hover:border-brandCyan transition space-y-3">
+              <div class="w-10 h-10 rounded-lg bg-teal-600 text-white flex items-center justify-center font-bold">6</div>
+              <h3 class="text-xl font-bold text-slate-900">Technical Consultation</h3>
+              <p class="text-slate-600 text-sm">Technical review of existing water systems, capacity expansion guidance, and water test report consultations.</p>
+            </div>
+
+            <div class="p-6 rounded-2xl bg-slate-50 border border-slate-200 hover:border-brandCyan transition space-y-3 md:col-span-2 lg:col-span-3">
+              <div class="w-10 h-10 rounded-lg bg-brandCharcoal text-white flex items-center justify-center font-bold">7</div>
+              <h3 class="text-xl font-bold text-slate-900">Equipment Supply</h3>
+              <p class="text-slate-600 text-sm">Sourcing and supply of genuine water treatment components, resins, activated carbon, sand media, and pumps based on availability.</p>
+            </div>
+
+          </div>
+
+          <div class="text-center py-8 bg-sky-50 rounded-2xl border border-sky-100">
+            <h3 class="text-xl font-bold text-slate-900">Need Water Treatment Assistance?</h3>
+            <p class="text-slate-600 text-sm mt-1">Contact Akshay Enterprises to discuss your project specifics.</p>
+            <button onclick="openEnquiryModal('Service Request')" class="mt-4 px-6 py-3 bg-brandBlue hover:bg-brandCyan text-white font-bold rounded-xl transition shadow">
+              Request Service Enquiry
+            </button>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- PAGE 5: STP SOLUTIONS TAB -->
+    <section id="page-stp" class="tab-content hidden">
+      <div class="bg-slate-900 text-white py-12 px-4">
+        <div class="max-w-7xl mx-auto text-center">
+          <span class="text-brandGreen font-semibold text-xs tracking-widest uppercase">Eco-Friendly Wastewater Recycling</span>
+          <h1 class="text-3xl md:text-5xl font-extrabold mt-1">Sewage Treatment Plant (STP) Solutions</h1>
+          <p class="text-slate-400 mt-2 max-w-2xl mx-auto">Wastewater Treatment for Residential, Commercial & Institutional Applications.</p>
+        </div>
+      </div>
+
+      <div class="py-16 bg-white">
+        <div class="max-w-7xl mx-auto px-4 space-y-16">
+          
+          <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+            <div class="space-y-4">
+              <h2 class="text-2xl md:text-3xl font-bold text-slate-900">What Is an STP?</h2>
+              <p class="text-slate-600 leading-relaxed">
+                A Sewage Treatment Plant (STP) treats wastewater generated from everyday human activities such as bathing, washing, cleaning, and sanitation facilities.
+              </p>
+              <p class="text-slate-600 leading-relaxed">
+                The treatment process removes harmful contaminants and organic matter so the treated water can be safely discharged or reused for flush tanks, gardening, and cooling towers. Treatment selection depends on flow capacity, site space, discharge standards, and energy preferences.
+              </p>
+            </div>
+            <div class="bg-slate-900 text-white p-8 rounded-2xl space-y-4">
+              <h3 class="text-xl font-bold text-brandGreen">STP Applications</h3>
+              <ul class="space-y-2 text-sm text-slate-300">
+                <li class="flex items-center gap-2"><i class="fa-solid fa-building-user text-brandGreen"></i> Residential Buildings & Housing Societies</li>
+                <li class="flex items-center gap-2"><i class="fa-solid fa-city text-brandGreen"></i> Apartment Complexes & High-rises</li>
+                <li class="flex items-center gap-2"><i class="fa-solid fa-briefcase text-brandGreen"></i> Commercial Buildings & IT Parks</li>
+                <li class="flex items-center gap-2"><i class="fa-solid fa-hotel text-brandGreen"></i> Hotels & Hospitality Resorts</li>
+                <li class="flex items-center gap-2"><i class="fa-solid fa-hospital text-brandGreen"></i> Hospitals & Healthcare Centers</li>
+                <li class="flex items-center gap-2"><i class="fa-solid fa-school text-brandGreen"></i> Educational Campuses & Universities</li>
+              </ul>
+            </div>
+          </div>
+
+          <!-- STP 5-Step Approach -->
+          <div>
+            <h3 class="text-2xl font-bold text-slate-900 text-center mb-8">Our STP Implementation Approach</h3>
+            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 gap-4">
+              <div class="p-6 bg-emerald-50 border border-emerald-100 rounded-2xl space-y-2">
+                <span class="text-xs font-bold text-brandGreen uppercase">Step 1</span>
+                <h4 class="font-bold text-slate-900">Understand Project</h4>
+                <p class="text-xs text-slate-600">Gather details regarding user count, estimated water usage, and site conditions.</p>
+              </div>
+
+              <div class="p-6 bg-emerald-50 border border-emerald-100 rounded-2xl space-y-2">
+                <span class="text-xs font-bold text-brandGreen uppercase">Step 2</span>
+                <h4 class="font-bold text-slate-900">Review Data</h4>
+                <p class="text-xs text-slate-600">Analyze peak flow rates, space footprint, and target quality parameters.</p>
+              </div>
+
+              <div class="p-6 bg-emerald-50 border border-emerald-100 rounded-2xl space-y-2">
+                <span class="text-xs font-bold text-brandGreen uppercase">Step 3</span>
+                <h4 class="font-bold text-slate-900">Discuss Solutions</h4>
+                <p class="text-xs text-slate-600">Present options like MBBR, MBR, or SBR systems based on feasibility.</p>
+              </div>
+
+              <div class="p-6 bg-emerald-50 border border-emerald-100 rounded-2xl space-y-2">
+                <span class="text-xs font-bold text-brandGreen uppercase">Step 4</span>
+                <h4 class="font-bold text-slate-900">Capacity Sizing</h4>
+                <p class="text-xs text-slate-600">Confirm pump ratings, vessel dimensions, and electrical power load.</p>
+              </div>
+
+              <div class="p-6 bg-emerald-50 border border-emerald-100 rounded-2xl space-y-2">
+                <span class="text-xs font-bold text-brandGreen uppercase">Step 5</span>
+                <h4 class="font-bold text-slate-900">Supply & Support</h4>
+                <p class="text-xs text-slate-600">Provide equipment supply, setup support, and routine technical assistance.</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- STP Project Requirements Checklist Form -->
+          <div class="bg-slate-900 text-white p-8 rounded-2xl">
+            <h3 class="text-2xl font-bold mb-2 text-brandCyan">Submit STP Project Details</h3>
+            <p class="text-slate-400 text-sm mb-6">To help us evaluate your Sewage Treatment Plant requirement, please fill in the following checklist:</p>
+
+            <form onsubmit="handleFormSubmit(event, 'STP Dedicated Form')" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+              <div>
+                <label class="block text-xs font-medium text-slate-300 mb-1">Project Location *</label>
+                <input type="text" placeholder="e.g. Panvel / Navi Mumbai" required class="w-full p-3 bg-slate-800 border border-slate-700 rounded-xl text-sm text-white focus:outline-none focus:border-brandGreen">
+              </div>
+
+              <div>
+                <label class="block text-xs font-medium text-slate-300 mb-1">Project Type *</label>
+                <select required class="w-full p-3 bg-slate-800 border border-slate-700 rounded-xl text-sm text-white focus:outline-none focus:border-brandGreen">
+                  <option value="">Select Category</option>
+                  <option value="Residential Building">Residential Society / Building</option>
+                  <option value="Commercial Complex">Commercial Building / Mall</option>
+                  <option value="Hotel / Resort">Hotel / Hospitality</option>
+                  <option value="Hospital">Hospital / Healthcare</option>
+                  <option value="Educational Campus">School / College Campus</option>
+                </select>
+              </div>
+
+              <div>
+                <label class="block text-xs font-medium text-slate-300 mb-1">Number of Users / Occupants</label>
+                <input type="number" placeholder="e.g. 250 occupants" class="w-full p-3 bg-slate-800 border border-slate-700 rounded-xl text-sm text-white focus:outline-none focus:border-brandGreen">
+              </div>
+
+              <div>
+                <label class="block text-xs font-medium text-slate-300 mb-1">Estimated STP Capacity (KLD)</label>
+                <input type="text" placeholder="e.g. 50 KLD or Unknown" class="w-full p-3 bg-slate-800 border border-slate-700 rounded-xl text-sm text-white focus:outline-none focus:border-brandGreen">
+              </div>
+
+              <div>
+                <label class="block text-xs font-medium text-slate-300 mb-1">Mobile Number *</label>
+                <input type="tel" placeholder="Mobile Number" required class="w-full p-3 bg-slate-800 border border-slate-700 rounded-xl text-sm text-white focus:outline-none focus:border-brandGreen">
+              </div>
+
+              <div>
+                <label class="block text-xs font-medium text-slate-300 mb-1">Email Address *</label>
+                <input type="email" placeholder="Email Address" required class="w-full p-3 bg-slate-800 border border-slate-700 rounded-xl text-sm text-white focus:outline-none focus:border-brandGreen">
+              </div>
+
+              <div class="md:col-span-2 lg:col-span-3">
+                <label class="block text-xs font-medium text-slate-300 mb-1">Additional Notes / Available Space</label>
+                <textarea rows="3" placeholder="Mention site details or existing STP condition if applicable..." class="w-full p-3 bg-slate-800 border border-slate-700 rounded-xl text-sm text-white focus:outline-none focus:border-brandGreen"></textarea>
+              </div>
+
+              <div class="md:col-span-2 lg:col-span-3">
+                <button type="submit" class="w-full py-3.5 bg-brandGreen hover:bg-emerald-500 text-slate-900 font-bold rounded-xl shadow-lg transition">
+                  Submit STP Enquiry
+                </button>
+              </div>
+            </form>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- PAGE 6: WATER TREATMENT SOLUTIONS TAB -->
+    <section id="page-wtp" class="tab-content hidden">
+      <div class="bg-slate-900 text-white py-12 px-4">
+        <div class="max-w-7xl mx-auto text-center">
+          <span class="text-brandCyan font-semibold text-xs tracking-widest uppercase">Pure Water Systems</span>
+          <h1 class="text-3xl md:text-5xl font-extrabold mt-1">Water Treatment Solutions</h1>
+          <p class="text-slate-400 mt-2 max-w-2xl mx-auto">Custom water purification & treatment tailored according to raw water sources.</p>
+        </div>
+      </div>
+
+      <div class="py-16 bg-white">
+        <div class="max-w-7xl mx-auto px-4 space-y-12">
+          
+          <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+            <div class="p-6 bg-slate-50 rounded-2xl border border-slate-200 text-center space-y-3">
+              <div class="w-12 h-12 rounded-full bg-brandCyan/20 text-brandCyan mx-auto flex items-center justify-center text-xl font-bold"><i class="fa-solid fa-house"></i></div>
+              <h3 class="font-bold text-slate-900 text-lg">Residential</h3>
+              <p class="text-xs text-slate-600">Softening borewell hard water and multi-stage carbon filtration for housing complexes.</p>
+            </div>
+
+            <div class="p-6 bg-slate-50 rounded-2xl border border-slate-200 text-center space-y-3">
+              <div class="w-12 h-12 rounded-full bg-brandCyan/20 text-brandCyan mx-auto flex items-center justify-center text-xl font-bold"><i class="fa-solid fa-building"></i></div>
+              <h3 class="font-bold text-slate-900 text-lg">Commercial</h3>
+              <p class="text-xs text-slate-600">High flow RO plants for hotels, institutions, and office buildings.</p>
+            </div>
+
+            <div class="p-6 bg-slate-50 rounded-2xl border border-slate-200 text-center space-y-3">
+              <div class="w-12 h-12 rounded-full bg-brandCyan/20 text-brandCyan mx-auto flex items-center justify-center text-xl font-bold"><i class="fa-solid fa-industry"></i></div>
+              <h3 class="font-bold text-slate-900 text-lg">Industrial</h3>
+              <p class="text-xs text-slate-600">Demineralization, dealkalization, and ultrafiltration for manufacturing processes.</p>
+            </div>
+          </div>
+
+          <div class="bg-sky-50 p-8 rounded-2xl border border-sky-100 flex flex-col md:flex-row justify-between items-center gap-6">
+            <div>
+              <h3 class="text-2xl font-bold text-slate-900">Have a Water Quality Test Report?</h3>
+              <p class="text-slate-600 text-sm mt-1">Share your water analysis report with us for custom treatment recommendation.</p>
+            </div>
+            <button onclick="openEnquiryModal('Water Treatment Discussion')" class="px-6 py-3 bg-brandOrange text-white font-bold rounded-xl shadow hover:bg-brandOrangeDark transition">
+              Discuss Your Requirement
+            </button>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- PAGE 7: INDUSTRIES WE SERVE TAB -->
+    <section id="page-industries" class="tab-content hidden">
+      <div class="bg-slate-900 text-white py-12 px-4">
+        <div class="max-w-7xl mx-auto text-center">
+          <span class="text-brandCyan font-semibold text-xs tracking-widest uppercase">Target Sectors</span>
+          <h1 class="text-3xl md:text-5xl font-extrabold mt-1">Industries We Serve</h1>
+          <p class="text-slate-400 mt-2 max-w-2xl mx-auto">Providing customized water treatment solutions across diverse commercial & industrial sectors.</p>
+        </div>
+      </div>
+
+      <div class="py-16 bg-white">
+        <div class="max-w-7xl mx-auto px-4 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
+          
+          <div class="p-6 rounded-2xl bg-slate-50 border border-slate-200 space-y-3">
+            <div class="text-brandCyan text-3xl"><i class="fa-solid fa-city"></i></div>
+            <h3 class="text-xl font-bold text-slate-900">Residential</h3>
+            <p class="text-sm text-slate-600">Water treatment and STP solutions for standalone apartments, housing societies, and residential townships.</p>
+          </div>
+
+          <div class="p-6 rounded-2xl bg-slate-50 border border-slate-200 space-y-3">
+            <div class="text-brandGreen text-3xl"><i class="fa-solid fa-briefcase"></i></div>
+            <h3 class="text-xl font-bold text-slate-900">Commercial</h3>
+            <p class="text-sm text-slate-600">High efficiency water filtration and softeners for office complexes, shopping malls, and corporate parks.</p>
+          </div>
+
+          <div class="p-6 rounded-2xl bg-slate-50 border border-slate-200 space-y-3">
+            <div class="text-brandOrange text-3xl"><i class="fa-solid fa-industry"></i></div>
+            <h3 class="text-xl font-bold text-slate-900">Industrial</h3>
+            <p class="text-sm text-slate-600">Process water purification, cooling tower water treatment, and effluent treatment for factories.</p>
+          </div>
+
+          <div class="p-6 rounded-2xl bg-slate-50 border border-slate-200 space-y-3">
+            <div class="text-brandCyan text-3xl"><i class="fa-solid fa-hotel"></i></div>
+            <h3 class="text-xl font-bold text-slate-900">Hospitality</h3>
+            <p class="text-sm text-slate-600">RO plants and wastewater recycling systems tailored for hotels, resorts, and food processing facilities.</p>
+          </div>
+
+          <div class="p-6 rounded-2xl bg-slate-50 border border-slate-200 space-y-3">
+            <div class="text-brandGreen text-3xl"><i class="fa-solid fa-hospital"></i></div>
+            <h3 class="text-xl font-bold text-slate-900">Healthcare</h3>
+            <p class="text-sm text-slate-600">Pure water systems for medical facilities, hospitals, and clinical laboratories fulfilling safety protocols.</p>
+          </div>
+
+          <div class="p-6 rounded-2xl bg-slate-50 border border-slate-200 space-y-3">
+            <div class="text-brandOrange text-3xl"><i class="fa-solid fa-graduation-cap"></i></div>
+            <h3 class="text-xl font-bold text-slate-900">Educational Institutions</h3>
+            <p class="text-sm text-slate-600">Safe drinking water systems and campus-wide sewage treatment setups for schools and universities.</p>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- PAGE 8: PROJECTS TAB -->
+    <section id="page-projects" class="tab-content hidden">
+      <div class="bg-slate-900 text-white py-12 px-4">
+        <div class="max-w-7xl mx-auto text-center">
+          <span class="text-brandCyan font-semibold text-xs tracking-widest uppercase">Track Record</span>
+          <h1 class="text-3xl md:text-5xl font-extrabold mt-1">Our Featured Projects</h1>
+          <p class="text-slate-400 mt-2 max-w-2xl mx-auto">Explore key water treatment and STP engineering implementations carried out by Akshay Enterprises.</p>
+        </div>
+      </div>
+
+      <div class="py-16 bg-slate-50">
+        <div class="max-w-7xl mx-auto px-4 grid grid-cols-1 md:grid-cols-2 gap-8">
+          
+          <div class="bg-white rounded-2xl border border-slate-200 overflow-hidden shadow-md space-y-4">
+            <img src="https://images.unsplash.com/photo-1541888946425-d0fbb186a5b3?auto=format&fit=crop&w=800&q=80" alt="Residential STP" class="w-full h-52 object-cover">
+            <div class="p-6 space-y-3">
+              <span class="text-xs bg-brandGreen/20 text-brandGreen font-bold px-2.5 py-1 rounded-full">Completed Project</span>
+              <h3 class="text-xl font-bold text-slate-900">100 KLD Sewage Treatment Plant</h3>
+              <div class="text-xs text-slate-600 space-y-1">
+                <div><strong>Location:</strong> Residential Housing Society, New Panvel</div>
+                <div><strong>Application:</strong> MBBR Technology STP for Flushing & Gardening Reuse</div>
+                <div><strong>Scope:</strong> Turnkey Design, Supply, Installation, and Support</div>
+              </div>
+            </div>
+          </div>
+
+          <div class="bg-white rounded-2xl border border-slate-200 overflow-hidden shadow-md space-y-4">
+            <img src="https://images.unsplash.com/photo-1518837695005-2083093ee35b?auto=format&fit=crop&w=800&q=80" alt="Industrial RO" class="w-full h-52 object-cover">
+            <div class="p-6 space-y-3">
+              <span class="text-xs bg-brandCyan/20 text-brandCyan font-bold px-2.5 py-1 rounded-full">Completed Project</span>
+              <h3 class="text-xl font-bold text-slate-900">Commercial 2000 LPH RO System</h3>
+              <div class="text-xs text-slate-600 space-y-1">
+                <div><strong>Location:</strong> Industrial Processing Facility, Taloja / Panvel</div>
+                <div><strong>Application:</strong> Process Water TDS Reduction & Softening</div>
+                <div><strong>Scope:</strong> High Pressure Pumps, Membrane Vessels & Dosing Panel</div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- PAGE 9: GALLERY TAB -->
+    <section id="page-gallery" class="tab-content hidden">
+      <div class="bg-slate-900 text-white py-12 px-4">
+        <div class="max-w-7xl mx-auto text-center">
+          <span class="text-brandCyan font-semibold text-xs tracking-widest uppercase">Visual Proof</span>
+          <h1 class="text-3xl md:text-5xl font-extrabold mt-1">Equipment & Site Gallery</h1>
+          <p class="text-slate-400 mt-2 max-w-2xl mx-auto">Photographs of water treatment systems, STP setups, pressure vessels, and site operations.</p>
+        </div>
+      </div>
+
+      <div class="py-16 bg-white">
+        <div class="max-w-7xl mx-auto px-4 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
+          <div class="rounded-2xl overflow-hidden shadow-md group">
+            <img src="https://images.unsplash.com/photo-1581092160607-ee22621dd758?auto=format&fit=crop&w=600&q=80" class="w-full h-64 object-cover group-hover:scale-105 transition duration-300" alt="Water Treatment Equipment">
+            <div class="p-3 bg-slate-900 text-white text-xs font-medium">Pressure Sand & Carbon Filter Vessels</div>
+          </div>
+          <div class="rounded-2xl overflow-hidden shadow-md group">
+            <img src="https://images.unsplash.com/photo-1500382017468-9049fed747ef?auto=format&fit=crop&w=600&q=80" class="w-full h-64 object-cover group-hover:scale-105 transition duration-300" alt="STP Plant">
+            <div class="p-3 bg-slate-900 text-white text-xs font-medium">STP Wastewater Aeration Tank Setup</div>
+          </div>
+          <div class="rounded-2xl overflow-hidden shadow-md group">
+            <img src="https://images.unsplash.com/photo-1518837695005-2083093ee35b?auto=format&fit=crop&w=600&q=80" class="w-full h-64 object-cover group-hover:scale-105 transition duration-300" alt="RO System">
+            <div class="p-3 bg-slate-900 text-white text-xs font-medium">Commercial Reverse Osmosis Skid</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- PAGE 10: FAQ TAB -->
+    <section id="page-faq" class="tab-content hidden">
+      <div class="bg-slate-900 text-white py-12 px-4">
+        <div class="max-w-7xl mx-auto text-center">
+          <span class="text-brandCyan font-semibold text-xs tracking-widest uppercase">Got Questions?</span>
+          <h1 class="text-3xl md:text-5xl font-extrabold mt-1">Frequently Asked Questions</h1>
+          <p class="text-slate-400 mt-2 max-w-2xl mx-auto">Find answers to common queries about our water treatment services and STP plants.</p>
+        </div>
+      </div>
+
+      <div class="py-16 bg-slate-50">
+        <div class="max-w-4xl mx-auto px-4 space-y-4">
+          
+          <!-- FAQ 1 -->
+          <div class="bg-white rounded-xl border border-slate-200 overflow-hidden">
+            <button onclick="toggleFaq(1)" class="w-full p-5 text-left font-bold text-slate-900 flex justify-between items-center hover:bg-slate-50">
+              <span>1. What does Akshay Enterprises do?</span>
+              <i id="faq-icon-1" class="fa-solid fa-chevron-down text-brandCyan"></i>
+            </button>
+            <div id="faq-ans-1" class="hidden p-5 pt-0 text-slate-600 text-sm border-t border-slate-100">
+              Akshay Enterprises is a water treatment and STP solutions business based in New Panvel, Maharashtra. The business focuses on water treatment products, sewage treatment solutions, equipment supply, and related service requirements.
+            </div>
+          </div>
+
+          <!-- FAQ 2 -->
+          <div class="bg-white rounded-xl border border-slate-200 overflow-hidden">
+            <button onclick="toggleFaq(2)" class="w-full p-5 text-left font-bold text-slate-900 flex justify-between items-center hover:bg-slate-50">
+              <span>2. Does Akshay Enterprises provide STP solutions?</span>
+              <i id="faq-icon-2" class="fa-solid fa-chevron-down text-brandCyan"></i>
+            </button>
+            <div id="faq-ans-2" class="hidden p-5 pt-0 text-slate-600 text-sm border-t border-slate-100">
+              Yes, Akshay Enterprises works in the STP solutions sector for residential, commercial, and institutional projects. Contact us to confirm applicable product capacities and project technical details.
+            </div>
+          </div>
+
+          <!-- FAQ 3 -->
+          <div class="bg-white rounded-xl border border-slate-200 overflow-hidden">
+            <button onclick="toggleFaq(3)" class="w-full p-5 text-left font-bold text-slate-900 flex justify-between items-center hover:bg-slate-50">
+              <span>3. What types of water treatment products are available?</span>
+              <i id="faq-icon-3" class="fa-solid fa-chevron-down text-brandCyan"></i>
+            </button>
+            <div id="faq-ans-3" class="hidden p-5 pt-0 text-slate-600 text-sm border-t border-slate-100">
+              Product categories include Water Treatment Plants (WTP), Filtration Systems, RO Systems, Water Softeners, Effluent Treatment Plants (ETP), and related water treatment equipment spares.
+            </div>
+          </div>
+
+          <!-- FAQ 4 -->
+          <div class="bg-white rounded-xl border border-slate-200 overflow-hidden">
+            <button onclick="toggleFaq(4)" class="w-full p-5 text-left font-bold text-slate-900 flex justify-between items-center hover:bg-slate-50">
+              <span>4. Does Akshay Enterprises provide industrial water treatment solutions?</span>
+              <i id="faq-icon-4" class="fa-solid fa-chevron-down text-brandCyan"></i>
+            </button>
+            <div id="faq-ans-4" class="hidden p-5 pt-0 text-slate-600 text-sm border-t border-slate-100">
+              Yes, we work in industrial water and effluent treatment. Contact us to discuss your specific industrial wastewater parameters and capacity requirements.
+            </div>
+          </div>
+
+          <!-- FAQ 5 -->
+          <div class="bg-white rounded-xl border border-slate-200 overflow-hidden">
+            <button onclick="toggleFaq(5)" class="w-full p-5 text-left font-bold text-slate-900 flex justify-between items-center hover:bg-slate-50">
+              <span>5. How can I enquire about an STP or Water Plant?</span>
+              <i id="faq-icon-5" class="fa-solid fa-chevron-down text-brandCyan"></i>
+            </button>
+            <div id="faq-ans-5" class="hidden p-5 pt-0 text-slate-600 text-sm border-t border-slate-100">
+              You can submit the enquiry forms on this website, call us directly at +91 9892770989, or message us on WhatsApp.
+            </div>
+          </div>
+
+          <!-- FAQ 6 -->
+          <div class="bg-white rounded-xl border border-slate-200 overflow-hidden">
+            <button onclick="toggleFaq(6)" class="w-full p-5 text-left font-bold text-slate-900 flex justify-between items-center hover:bg-slate-50">
+              <span>6. How do I select the right water treatment system?</span>
+              <i id="faq-icon-6" class="fa-solid fa-chevron-down text-brandCyan"></i>
+            </button>
+            <div id="faq-ans-6" class="hidden p-5 pt-0 text-slate-600 text-sm border-t border-slate-100">
+              System selection depends on raw water quality test reports, daily volume consumption, intended application, and target discharge parameters.
+            </div>
+          </div>
+
+          <!-- FAQ 7 -->
+          <div class="bg-white rounded-xl border border-slate-200 overflow-hidden">
+            <button onclick="toggleFaq(7)" class="w-full p-5 text-left font-bold text-slate-900 flex justify-between items-center hover:bg-slate-50">
+              <span>7. Does Akshay Enterprises provide installation and maintenance?</span>
+              <i id="faq-icon-7" class="fa-solid fa-chevron-down text-brandCyan"></i>
+            </button>
+            <div id="faq-ans-7" class="hidden p-5 pt-0 text-slate-600 text-sm border-t border-slate-100">
+              Yes, we provide installation guidance and routine technical/maintenance support for systems supplied by the company.
+            </div>
+          </div>
+
+          <!-- FAQ 8 -->
+          <div class="bg-white rounded-xl border border-slate-200 overflow-hidden">
+            <button onclick="toggleFaq(8)" class="w-full p-5 text-left font-bold text-slate-900 flex justify-between items-center hover:bg-slate-50">
+              <span>8. Where is Akshay Enterprises located?</span>
+              <i id="faq-icon-8" class="fa-solid fa-chevron-down text-brandCyan"></i>
+            </button>
+            <div id="faq-ans-8" class="hidden p-5 pt-0 text-slate-600 text-sm border-t border-slate-100">
+              We are located at Plot No. 49, Rd Number 3, Behind Cidco Office, Sector-1/s, New Panvel East, Panvel, Navi Mumbai, Maharashtra 410206.
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- PAGE 11: CONTACT US TAB -->
+    <section id="page-contact" class="tab-content hidden">
+      <div class="bg-slate-900 text-white py-12 px-4">
+        <div class="max-w-7xl mx-auto text-center">
+          <span class="text-brandCyan font-semibold text-xs tracking-widest uppercase">Get in Touch</span>
+          <h1 class="text-3xl md:text-5xl font-extrabold mt-1">Contact Akshay Enterprises</h1>
+          <p class="text-slate-400 mt-2 max-w-2xl mx-auto">Let's discuss your water treatment plant, STP, or equipment requirement.</p>
+        </div>
+      </div>
+
+      <div class="py-16 bg-white">
+        <div class="max-w-7xl mx-auto px-4 grid grid-cols-1 lg:grid-cols-12 gap-12">
+          
+          <!-- Contact Details -->
+          <div class="lg:col-span-5 space-y-6">
+            <div class="bg-slate-900 text-white p-8 rounded-2xl space-y-6">
+              <h3 class="text-2xl font-bold border-b border-slate-800 pb-4">Company Details</h3>
+              
+              <div class="space-y-4 text-sm">
+                <div class="flex items-start gap-3">
+                  <div class="text-brandCyan text-lg mt-0.5"><i class="fa-solid fa-building"></i></div>
+                  <div>
+                    <div class="font-bold text-slate-200">Company Name</div>
+                    <div class="text-slate-400">Akshay Enterprises</div>
+                  </div>
+                </div>
+
+                <div class="flex items-start gap-3">
+                  <div class="text-brandCyan text-lg mt-0.5"><i class="fa-solid fa-gears"></i></div>
+                  <div>
+                    <div class="font-bold text-slate-200">Business Category</div>
+                    <div class="text-slate-400">Water Treatment & STP Solutions</div>
+                  </div>
+                </div>
+
+                <div class="flex items-start gap-3">
+                  <div class="text-brandCyan text-lg mt-0.5"><i class="fa-solid fa-location-dot"></i></div>
+                  <div>
+                    <div class="font-bold text-slate-200">Office Address</div>
+                    <div class="text-slate-400 leading-relaxed">
+                      Plot No. 49, Rd Number 3, Behind Cidco Office, Sector-1/s, New Panvel East, Panvel, Navi Mumbai, Maharashtra 410206
+                    </div>
+                  </div>
+                </div>
+
+                <div class="flex items-start gap-3">
+                  <div class="text-brandGreen text-lg mt-0.5"><i class="fa-solid fa-phone"></i></div>
+                  <div>
+                    <div class="font-bold text-slate-200">Phone & WhatsApp</div>
+                    <a href="tel:+919892770989" class="text-brandGreen font-bold hover:underline">+91 9892770989</a>
+                  </div>
+                </div>
+
+                <div class="flex items-start gap-3">
+                  <div class="text-brandCyan text-lg mt-0.5"><i class="fa-solid fa-envelope"></i></div>
+                  <div>
+                    <div class="font-bold text-slate-200">Official Email</div>
+                    <a href="mailto:akshayenterprises.mumbai@gmail.com" class="text-brandCyan hover:underline">akshayenterprises.mumbai@gmail.com</a>
+                  </div>
+                </div>
+              </div>
+
+              <div class="pt-4 flex gap-3">
+                <a href="tel:+919892770989" class="flex-1 py-3 bg-brandCyan hover:bg-sky-400 text-slate-900 font-bold rounded-xl text-center transition">
+                  <i class="fa-solid fa-phone mr-1"></i> Call Now
+                </a>
+                <a href="https://wa.me/919892770989" target="_blank" rel="noopener noreferrer" class="flex-1 py-3 bg-brandGreen hover:bg-emerald-500 text-white font-bold rounded-xl text-center transition">
+                  <i class="fa-brands fa-whatsapp mr-1"></i> WhatsApp
+                </a>
+              </div>
+            </div>
+
+            <!-- Simulated Map Card -->
+            <div class="bg-slate-100 rounded-2xl p-4 border border-slate-200">
+              <div class="flex items-center justify-between mb-2">
+                <span class="font-bold text-slate-800 text-sm"><i class="fa-solid fa-map"></i> Location Map</span>
+                <span class="text-xs text-brandBlue font-semibold">New Panvel East</span>
+              </div>
+              <div class="w-full h-48 rounded-xl bg-slate-300 relative overflow-hidden flex items-center justify-center text-slate-600">
+                <iframe class="w-full h-full border-0 rounded-xl" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3772.4682029704283!2d73.1200!3d18.9900!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMTjCsDU5JzI0LjAiTiA3M8KwMDcnMTI4LjAiRQ!5e0!3m2!1sen!2sin!4v1600000000000!5m2!1sen!2sin" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+              </div>
+            </div>
+          </div>
+
+          <!-- Contact Form -->
+          <div class="lg:col-span-7 bg-slate-50 p-8 rounded-2xl border border-slate-200">
+            <h3 class="text-2xl font-bold text-slate-900 mb-1">Send Us an Enquiry</h3>
+            <p class="text-slate-600 text-sm mb-6">Complete the form below and our technical team will review your requirement.</p>
+
+            <form onsubmit="handleFormSubmit(event, 'Main Contact Page Form')" class="space-y-4">
+              <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                <div>
+                  <label class="block text-xs font-semibold text-slate-700 mb-1">Full Name *</label>
+                  <input type="text" placeholder="Enter Your Name" required class="w-full p-3 bg-white border border-slate-300 rounded-xl text-sm focus:outline-none focus:border-brandCyan">
+                </div>
+                <div>
+                  <label class="block text-xs font-semibold text-slate-700 mb-1">Company Name</label>
+                  <input type="text" placeholder="Enter Company Name" class="w-full p-3 bg-white border border-slate-300 rounded-xl text-sm focus:outline-none focus:border-brandCyan">
+                </div>
+              </div>
+
+              <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                <div>
+                  <label class="block text-xs font-semibold text-slate-700 mb-1">Mobile Number *</label>
+                  <input type="tel" placeholder="Enter Mobile Number" required class="w-full p-3 bg-white border border-slate-300 rounded-xl text-sm focus:outline-none focus:border-brandCyan">
+                </div>
+                <div>
+                  <label class="block text-xs font-semibold text-slate-700 mb-1">Email Address *</label>
+                  <input type="email" placeholder="Enter Email Address" required class="w-full p-3 bg-white border border-slate-300 rounded-xl text-sm focus:outline-none focus:border-brandCyan">
+                </div>
+              </div>
+
+              <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                <div>
+                  <label class="block text-xs font-semibold text-slate-700 mb-1">Location / City *</label>
+                  <input type="text" placeholder="e.g. Panvel / Navi Mumbai" required class="w-full p-3 bg-white border border-slate-300 rounded-xl text-sm focus:outline-none focus:border-brandCyan">
+                </div>
+                <div>
+                  <label class="block text-xs font-semibold text-slate-700 mb-1">Requirement Category *</label>
+                  <select required class="w-full p-3 bg-white border border-slate-300 rounded-xl text-sm focus:outline-none focus:border-brandCyan">
+                    <option value="">Select Product or Service</option>
+                    <option value="Water Treatment Plant">Water Treatment Plant</option>
+                    <option value="Sewage Treatment Plant">Sewage Treatment Plant (STP)</option>
+                    <option value="Effluent Treatment Plant">Effluent Treatment Plant (ETP)</option>
+                    <option value="RO System">RO System</option>
+                    <option value="Water Softener">Water Softener</option>
+                    <option value="Water Filtration">Water Filtration</option>
+                    <option value="Equipment">Equipment Spares</option>
+                    <option value="Maintenance">Installation / Maintenance</option>
+                    <option value="Other">Other Query</option>
+                  </select>
+                </div>
+              </div>
+
+              <div>
+                <label class="block text-xs font-semibold text-slate-700 mb-1">Project Details / Message</label>
+                <textarea rows="4" placeholder="Describe your water treatment or STP requirement..." class="w-full p-3 bg-white border border-slate-300 rounded-xl text-sm focus:outline-none focus:border-brandCyan"></textarea>
+              </div>
+
+              <button type="submit" class="w-full py-4 bg-gradient-to-r from-brandOrange to-brandOrangeDark text-white font-bold rounded-xl shadow-lg hover:opacity-95 transition">
+                Submit Enquiry
+              </button>
+            </form>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- FLOATING QUICK CONTACT BAR (Mobile & Desktop) -->
+  <div class="fixed bottom-4 right-4 z-40 flex flex-col gap-2">
+    <a href="https://wa.me/919892770989" target="_blank" rel="noopener noreferrer" title="WhatsApp Us" class="w-12 h-12 rounded-full bg-green-500 text-white flex items-center justify-center text-2xl shadow-xl hover:scale-110 transition">
+      <i class="fa-brands fa-whatsapp"></i>
+    </a>
+    <a href="tel:+919892770989" title="Call Us" class="w-12 h-12 rounded-full bg-brandCyan text-white flex items-center justify-center text-xl shadow-xl hover:scale-110 transition">
+      <i class="fa-solid fa-phone"></i>
+    </a>
+  </div>
+
+  <!-- GENERAL ENQUIRY MODAL POPUP -->
+  <div id="enquiryModal" class="fixed inset-0 z-50 bg-black/60 backdrop-blur-sm hidden flex items-center justify-center p-4">
+    <div class="bg-white w-full max-w-lg rounded-2xl shadow-2xl overflow-hidden animate-in fade-in zoom-in duration-200">
+      <div class="bg-slate-900 text-white p-6 flex justify-between items-center">
+        <div>
+          <h3 class="font-bold text-lg text-brandCyan">Get Water Treatment Solution</h3>
+          <p id="modalCategoryLabel" class="text-xs text-slate-400">Akshay Enterprises - New Panvel</p>
+        </div>
+        <button onclick="closeEnquiryModal()" class="text-slate-400 hover:text-white text-2xl font-bold">&times;</button>
+      </div>
+
+      <form onsubmit="handleFormSubmit(event, 'Modal Enquiry')" class="p-6 space-y-4">
+        <div>
+          <label class="block text-xs font-semibold text-slate-700 mb-1">Your Full Name *</label>
+          <input type="text" required placeholder="Enter Your Name" class="w-full p-3 bg-slate-50 border border-slate-300 rounded-xl text-sm focus:outline-none focus:border-brandCyan">
+        </div>
+
+        <div class="grid grid-cols-2 gap-3">
+          <div>
+            <label class="block text-xs font-semibold text-slate-700 mb-1">Mobile Number *</label>
+            <input type="tel" required placeholder="Mobile No." class="w-full p-3 bg-slate-50 border border-slate-300 rounded-xl text-sm focus:outline-none focus:border-brandCyan">
+          </div>
+          <div>
+            <label class="block text-xs font-semibold text-slate-700 mb-1">Email *</label>
+            <input type="email" required placeholder="Email Address" class="w-full p-3 bg-slate-50 border border-slate-300 rounded-xl text-sm focus:outline-none focus:border-brandCyan">
+          </div>
+        </div>
+
+        <div>
+          <label class="block text-xs font-semibold text-slate-700 mb-1">City / Location *</label>
+          <input type="text" required placeholder="e.g. Panvel / Mumbai" class="w-full p-3 bg-slate-50 border border-slate-300 rounded-xl text-sm focus:outline-none focus:border-brandCyan">
+        </div>
+
+        <div>
+          <label class="block text-xs font-semibold text-slate-700 mb-1">Requirement Details</label>
+          <textarea rows="3" placeholder="Specify STP capacity, water quality issue, or system size..." class="w-full p-3 bg-slate-50 border border-slate-300 rounded-xl text-sm focus:outline-none focus:border-brandCyan"></textarea>
+        </div>
+
+        <div class="pt-2 flex gap-3">
+          <button type="button" onclick="closeEnquiryModal()" class="flex-1 py-3 border border-slate-300 rounded-xl font-medium text-slate-700 hover:bg-slate-100 transition">Cancel</button>
+          <button type="submit" class="flex-1 py-3 bg-brandOrange hover:bg-brandOrangeDark text-white font-bold rounded-xl transition shadow">Submit Now</button>
+        </div>
+      </form>
+    </div>
+  </div>
+
+  <!-- SUCCESS CONFIRMATION MODAL -->
+  <div id="successModal" class="fixed inset-0 z-50 bg-black/60 backdrop-blur-sm hidden flex items-center justify-center p-4">
+    <div class="bg-white w-full max-w-md rounded-2xl p-8 text-center space-y-4 shadow-2xl">
+      <div class="w-16 h-16 bg-emerald-100 text-brandGreen rounded-full flex items-center justify-center text-3xl mx-auto">
+        <i class="fa-solid fa-circle-check"></i>
+      </div>
+      <h3 class="text-2xl font-bold text-slate-900">Enquiry Received!</h3>
+      <p class="text-slate-600 text-sm">Thank you for reaching out to Akshay Enterprises. Our team in New Panvel will review your information and connect with you shortly.</p>
+      <button onclick="closeSuccessModal()" class="w-full py-3 bg-slate-900 text-white font-bold rounded-xl hover:bg-brandCyan transition">
+        Back to Website
+      </button>
+    </div>
+  </div>
+
+  <!-- FOOTER -->
+  <footer class="bg-brandDark text-white pt-16 pb-8 border-t border-slate-800">
+    <div class="max-w-7xl mx-auto px-4 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10 pb-12 border-b border-slate-800">
+      
+      <!-- Footer Col 1: Brand -->
+      <div class="space-y-4">
+        <div class="flex items-center gap-3">
+          <!-- Logo symbol -->
+          <div class="w-10 h-10">
+            <svg viewBox="0 0 100 100" class="w-full h-full">
+              <path d="M50 5 L55 12 L65 10 L68 18 L77 19 L77 28 L85 32 L82 40 L89 47 L83 53 L87 61 L79 66 L80 75 L71 78 L69 87 L60 87 L55 95 L45 95 L40 87 L31 87 L29 78 L20 75 L21 66 L13 61 L17 53 L11 47 L18 40 L15 32 L23 28 L23 19 L32 18 L35 10 L45 12 Z" fill="#0F4C81"/>
+              <circle cx="50" cy="50" r="32" fill="#FFFFFF"/>
+              <path d="M50 22 C50 22 30 45 30 58 C30 69 39 77 50 77 C61 77 70 69 70 58 C70 45 50 22 50 22 Z" fill="#00A8FF"/>
+            </svg>
+          </div>
+          <div>
+            <div class="brand-akshay-text text-lg">AKSHAY</div>
+            <div class="brand-enterprises-text text-xs">ENTERPRISES</div>
+          </div>
+        </div>
+        <p class="text-xs text-slate-400 leading-relaxed">
+          Providing complete water treatment-related products, STP plants, RO units, and solutions for residential, commercial, and industrial applications.
+        </p>
+      </div>
+
+      <!-- Footer Col 2: Quick Links -->
+      <div class="space-y-3">
+        <h4 class="font-bold text-brandCyan text-sm uppercase tracking-wider">Quick Navigation</h4>
+        <ul class="space-y-2 text-xs text-slate-300">
+          <li><button onclick="switchTab('home')" class="hover:text-brandCyan">Home</button></li>
+          <li><button onclick="switchTab('about')" class="hover:text-brandCyan">About Us</button></li>
+          <li><button onclick="switchTab('products')" class="hover:text-brandCyan">Products & Equipment</button></li>
+          <li><button onclick="switchTab('services')" class="hover:text-brandCyan">Water Services</button></li>
+          <li><button onclick="switchTab('stp')" class="hover:text-brandCyan">STP Solutions</button></li>
+          <li><button onclick="switchTab('wtp')" class="hover:text-brandCyan">Water Treatment</button></li>
+        </ul>
+      </div>
+
+      <!-- Footer Col 3: Sectors -->
+      <div class="space-y-3">
+        <h4 class="font-bold text-brandCyan text-sm uppercase tracking-wider">Solutions & Sectors</h4>
+        <ul class="space-y-2 text-xs text-slate-300">
+          <li><button onclick="switchTab('industries')" class="hover:text-brandCyan">Residential Housing Societies</button></li>
+          <li><button onclick="switchTab('industries')" class="hover:text-brandCyan">Commercial Complexes</button></li>
+          <li><button onclick="switchTab('industries')" class="hover:text-brandCyan">Industrial Operations</button></li>
+          <li><button onclick="switchTab('industries')" class="hover:text-brandCyan">Hotels & Healthcare</button></li>
+          <li><button onclick="switchTab('projects')" class="hover:text-brandCyan">Project Portfolio</button></li>
+          <li><button onclick="switchTab('faq')" class="hover:text-brandCyan">FAQ</button></li>
+        </ul>
+      </div>
+
+      <!-- Footer Col 4: Contact -->
+      <div class="space-y-3">
+        <h4 class="font-bold text-brandCyan text-sm uppercase tracking-wider">Contact Info</h4>
+        <div class="space-y-2 text-xs text-slate-300">
+          <p><i class="fa-solid fa-location-dot text-brandCyan mr-1"></i> Plot No. 49, Rd No 3, Sector-1/s, New Panvel East, Navi Mumbai 410206</p>
+          <p><i class="fa-solid fa-phone text-brandGreen mr-1"></i> +91 9892770989</p>
+          <p><i class="fa-solid fa-envelope text-brandCyan mr-1"></i> akshayenterprises.mumbai@gmail.com</p>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="max-w-7xl mx-auto px-4 pt-6 flex flex-col sm:flex-row justify-between items-center text-xs text-slate-500 gap-2">
+      <div>© <span id="yearSpan"></span> Akshay Enterprises. All Rights Reserved.</div>
+      <div class="flex gap-4">
+        <a href="#" class="hover:text-slate-300">Privacy Policy</a>
+        <span>|</span>
+        <a href="#" class="hover:text-slate-300">Terms & Conditions</a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- EMBEDDED JS LOGIC -->
+  <script>
+    // Set dynamic current year in footer
+    document.getElementById('yearSpan').textContent = new Date().getFullYear();
+
+    // Tab Navigation Logic
+    function switchTab(tabId) {
+      // Hide all pages
+      const pages = document.querySelectorAll('.tab-content');
+      pages.forEach(page => {
+        page.classList.add('hidden');
+        page.classList.remove('block');
+      });
+
+      // Show selected page
+      const targetPage = document.getElementById('page-' + tabId);
+      if (targetPage) {
+        targetPage.classList.remove('hidden');
+        targetPage.classList.add('block');
+      }
+
+      // Update navbar links
+      const navLinks = document.querySelectorAll('.nav-link');
+      navLinks.forEach(link => link.classList.remove('active'));
+
+      const activeLink = document.getElementById('nav-' + tabId);
+      if (activeLink) {
+        activeLink.classList.add('active');
+      }
+
+      // Scroll to top
+      window.scrollTo({ top: 0, behavior: 'smooth' });
+
+      // Close mobile drawer if open
+      const mobileMenu = document.getElementById('mobileMenu');
+      if (!mobileMenu.classList.contains('hidden')) {
+        mobileMenu.classList.add('hidden');
+      }
+    }
+
+    // Mobile Navigation Drawer Toggle
+    function toggleMobileMenu() {
+      const mobileMenu = document.getElementById('mobileMenu');
+      mobileMenu.classList.toggle('hidden');
+    }
+
+    // Modal Handlers
+    function openEnquiryModal(categoryName) {
+      document.getElementById('modalCategoryLabel').textContent = 'Category: ' + categoryName;
+      document.getElementById('enquiryModal').classList.remove('hidden');
+    }
+
+    function closeEnquiryModal() {
+      document.getElementById('enquiryModal').classList.add('hidden');
+    }
+
+    function closeSuccessModal() {
+      document.getElementById('successModal').classList.add('hidden');
+    }
+
+    function handleFormSubmit(event, formName) {
+      event.preventDefault();
+      closeEnquiryModal();
+      document.getElementById('successModal').classList.remove('hidden');
+    }
+
+    // Product Filter Buttons
+    function filterProducts(category) {
+      const cards = document.querySelectorAll('.prod-card');
+      cards.forEach(card => {
+        if (category === 'all' || card.classList.contains(category)) {
+          card.style.display = 'flex';
+        } else {
+          card.style.display = 'none';
+        }
+      });
+
+      // Update button visual styles
+      const filterBtns = document.querySelectorAll('.prod-filter-btn');
+      filterBtns.forEach(btn => {
+        btn.classList.remove('bg-brandBlue', 'text-white');
+        btn.classList.add('bg-white', 'text-slate-700');
+      });
+      event.target.classList.add('bg-brandBlue', 'text-white');
+      event.target.classList.remove('bg-white', 'text-slate-700');
+    }
+
+    // Accordion Toggle for FAQ
+    function toggleFaq(index) {
+      const ans = document.getElementById('faq-ans-' + index);
+      const icon = document.getElementById('faq-icon-' + index);
+
+      if (ans.classList.contains('hidden')) {
+        ans.classList.remove('hidden');
+        icon.classList.replace('fa-chevron-down', 'fa-chevron-up');
+      } else {
+        ans.classList.add('hidden');
+        icon.classList.replace('fa-chevron-up', 'fa-chevron-down');
+      }
+    }
+
+    // Animated Hero Wave Graphic Canvas
+    window.onload = function() {
+      const canvas = document.getElementById('waveCanvas');
+      if (!canvas) return;
+      const ctx = canvas.getContext('2d');
+
+      function resizeCanvas() {
+        canvas.width = canvas.offsetWidth;
+        canvas.height = canvas.offsetHeight;
+      }
+      resizeCanvas();
+      window.addEventListener('resize', resizeCanvas);
+
+      let step = 0;
+      function drawWave() {
+        ctx.clearRect(0, 0, canvas.width, canvas.height);
+        step += 0.03;
+
+        // Wave 1
+        ctx.beginPath();
+        ctx.fillStyle = 'rgba(0, 168, 232, 0.25)';
+        for (let x = 0; x <= canvas.width; x += 10) {
+          let y = Math.sin(x * 0.01 + step) * 15 + 60;
+          if (x === 0) ctx.moveTo(x, y);
+          else ctx.lineTo(x, y);
+        }
+        ctx.lineTo(canvas.width, canvas.height);
+        ctx.lineTo(0, canvas.height);
+        ctx.closePath();
+        ctx.fill();
+
+        // Wave 2
+        ctx.beginPath();
+        ctx.fillStyle = 'rgba(46, 204, 113, 0.2)';
+        for (let x = 0; x <= canvas.width; x += 10) {
+          let y = Math.cos(x * 0.008 + step * 0.8) * 18 + 70;
+          if (x === 0) ctx.moveTo(x, y);
+          else ctx.lineTo(x, y);
+        }
+        ctx.lineTo(canvas.width, canvas.height);
+        ctx.lineTo(0, canvas.height);
+        ctx.closePath();
+        ctx.fill();
+
+        requestAnimationFrame(drawWave);
+      }
+
+      drawWave();
+    };
+  </script>
+</body>
+</html>
